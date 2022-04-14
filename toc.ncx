@@ -1,0 +1,446 @@
+<?xml version="1.0"?> 
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"> 
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1"> 
+<head>
+        <meta name="dtb:totalPageCount" content="0"/>
+        <meta name="dtb:maxPageNumber" content="0"/>
+    </head>
+
+    <docTitle> 
+        <text>Bons amigos : geografia : 1º ano : ensino fundamental : anos iniciais</text> 
+    </docTitle>
+
+<navMap>
+<!-- item --> 
+    <navPoint class="chapter" id="capa" playOrder="1"> 
+        <navLabel> 
+            <text>Capa</text> 
+        </navLabel> 
+        <content src="index.xhtml#capa" /> 
+    </navPoint> 
+<!-- item --> 
+    <navPoint class="chapter" id="frontismp" playOrder="2"> 
+        <navLabel> 
+            <text>Frontis</text> 
+        </navLabel> 
+        <content src="index.xhtml#frontis" /> 
+    </navPoint> 
+<!-- item --> 
+    <navPoint class="section" id="creditos" playOrder="3"> 
+        <navLabel> 
+            <text>Créditos</text> 
+        </navLabel> 
+        <content src="index.xhtml#creditos" /> 
+    </navPoint> 
+<!-- item --> 
+    <navPoint class="section" id="apresentacaomp" playOrder="4"> 
+        <navLabel> 
+            <text>Apresentação</text> 
+        </navLabel> 
+        <content src="content/index.xhtml#apresentacao" /> 
+    </navPoint>     
+<!-- item --> 
+    <navPoint class="section" id="toc" playOrder="5"> 
+        <navLabel> 
+            <text>Sumário</text> 
+        </navLabel> 
+        <content src="index.html#toc" /> 
+    </navPoint>     
+<!-- item -->   
+
+<!-- Inserir os tópicos do livro aqui - INICIO -->
+
+
+<!-- Tópico principal -->
+<navPoint class="section" id="manualgeral_prof" playOrder="6">
+<navLabel>
+<text>O Livro do estudante e o Manual do professor - V</text>
+</navLabel>
+<content src="content/manualgeral_prof.xhtml" />
+    
+    <!--Subitem  do tópico principal -->
+    <navPoint class="section" id="estruturaLT" playOrder="7">
+    <navLabel>
+    <text>A estrutura do Livro do estudante - V</text>
+    </navLabel>
+    <content src="content/manualgeral_prof.xhtml#estruturaLT" />
+    </navPoint>
+    
+    
+    <!--Subitem  do tópico principal -->
+    <navPoint class="section" id="estruturaMP" playOrder="8">
+    <navLabel>
+    <text>A estrutura do Manual do professor - V</text>
+    </navLabel>
+    <content src="content/manualgeral_prof.xhtml#estruturaMP" />
+    </navPoint>
+    
+</navPoint>
+
+
+
+<!-- Tópico principal -->
+<navPoint class="section" id="mgBNCC" playOrder="9">
+<navLabel>
+<text>A Base Nacional Comum Curricular (BNCC) - VI</text>
+</navLabel>
+<content src="content/manualgeral_prof.xhtml#mgBNCC" />
+    
+    <!--Subitem  do tópico principal -->
+    <navPoint class="section" id="comptenciasEB" playOrder="10">
+    <navLabel>
+    <text>As Competências gerais da Educação Básica - VII</text>
+    </navLabel>
+    <content src="content/manualgeral_prof.xhtml#comptenciasEB" />
+    </navPoint>
+    
+    
+    <!--Subitem  do tópico principal -->
+    <navPoint class="section" id="competenciasECHEF" playOrder="11">
+    <navLabel>
+    <text>As Competências específicas de Ciências Humanas para o Ensino Fundamental - VII</text>
+    </navLabel>
+    <content src="content/manualgeral_prof.xhtml#competenciasECHEF" />
+    </navPoint>
+    
+    
+    <!--Subitem  do tópico principal -->
+    <navPoint class="section" id="compEGEF" playOrder="12">
+    <navLabel>
+    <text>As Competências específicas de Geografia para o Ensino Fundamental - VIII</text>
+    </navLabel>
+    <content src="content/manualgeral_prof.xhtml#compEGEF" />
+    </navPoint>
+    
+</navPoint>
+
+
+
+<!-- Tópico principal -->
+<navPoint class="section" id="mgPNA" playOrder="13">
+<navLabel>
+<text>A Política Nacional de Alfabetização (PNA) - VIII</text>
+</navLabel>
+<content src="content/manualgeral_prof.xhtml#mgPNA" />
+    
+    <!--Subitem  do tópico principal -->
+    <navPoint class="section" id="mgLiteraciafamiliar" playOrder="14">
+    <navLabel>
+    <text>Literacia e Literacia familiar - VIII</text>
+    </navLabel>
+    <content src="content/manualgeral_prof.xhtml#mgLiteraciafamiliar" />
+    </navPoint>
+    
+    
+    <!--Subitem  do tópico principal -->
+    <navPoint class="section" id="alfabetizacaoMG" playOrder="15">
+    <navLabel>
+    <text>Os componentes essenciais para a alfabetização - IX</text>
+    </navLabel>
+    <content src="content/manualgeral_prof.xhtml#alfabetizacaoMG" />
+    </navPoint>
+    
+    
+    <!--Subitem  do tópico principal -->
+    <navPoint class="section" id="cognicaoMatematicaMG" playOrder="16">
+    <navLabel>
+    <text>Cognição matemática: numeracia - X</text>
+    </navLabel>
+    <content src="content/manualgeral_prof.xhtml#cognicaoMatematicaMG" />
+    </navPoint>
+    
+</navPoint>
+
+
+
+<navPoint class="section" id="integracaoCompMG" playOrder="17">
+<navLabel>
+<text>Integração entre os componentes curriculares - X</text>
+</navLabel>
+<content src="content/manualgeral_prof.xhtml#integracaoCompMG" />
+</navPoint>
+
+<navPoint class="section" id="avaliacaoMG" playOrder="18">
+<navLabel>
+<text>Avaliação - X</text>
+</navLabel>
+<content src="content/manualgeral_prof.xhtml#avaliacaoMG" />
+</navPoint>
+
+
+
+<!-- Tópico principal -->
+<navPoint class="section" id="ensinoMatematicaMG" playOrder="19">
+<navLabel>
+<text>O ensino de Geografia - XII</text>
+</navLabel>
+<content src="content/manualgeral_prof.xhtml#ensinoMatematicaMG" />
+    
+    <!--Subitem  do tópico principal -->
+    <navPoint class="section" id="raciociniaoGEO" playOrder="20">
+    <navLabel>
+    <text>O raciocínio geográfico - XII</text>
+    </navLabel>
+    <content src="content/manualgeral_prof.xhtml#raciociniaoGEO" />
+    </navPoint>
+    
+    
+    <!--Subitem  do tópico principal -->
+    <navPoint class="section" id="geocartografia" playOrder="21">
+    <navLabel>
+    <text>Geografia e Cartografia - XII</text>
+    </navLabel>
+    <content src="content/manualgeral_prof.xhtml#geocartografia" />
+    </navPoint>
+    
+</navPoint>
+
+
+
+<navPoint class="section" id="quadroAnualMG" playOrder="22">
+<navLabel>
+<text>Quadro anual de conteúdos • 1º ano - XII</text>
+</navLabel>
+<content src="content/manualgeral_prof.xhtml#quadroAnualMG" />
+</navPoint>
+
+<navPoint class="section" id="referenciasComentadasMG" playOrder="23">
+<navLabel>
+<text>Referências bibliográficas comentadas – Manual do professor - XVII</text>
+</navLabel>
+<content src="content/manualgeral_prof.xhtml#referenciasComentadasMG" />
+</navPoint>
+
+
+
+<navPoint class="section" id="frontis" playOrder="24">
+<navLabel>
+<text>Início da reprodução do Livro do estudante - 1</text>
+</navLabel>
+<content src="content/paginasiniciais_prof.xhtml#frontis" />
+</navPoint>
+
+<navPoint class="section" id="apresentacao" playOrder="25">
+<navLabel>
+<text>Apresentação - 3</text>
+</navLabel>
+<content src="content/paginasiniciais_prof.xhtml#apresentacao" />
+</navPoint>
+
+<navPoint class="section" id="sumario" playOrder="26">
+<navLabel>
+<text>Sumário - 4</text>
+</navLabel>
+<content src="content/paginasiniciais_prof.xhtml#sumario" />
+</navPoint>
+
+<navPoint class="section" id="vamosiniciar" playOrder="27">
+<navLabel>
+<text>Vamos iniciar - 6</text>
+</navLabel>
+<content src="content/vamosiniciar.xhtml" />
+</navPoint>
+
+
+
+<navPoint class="section" id="tiposatividades_prof" playOrder="28">
+<navLabel>
+<text>Como desenvolver alguns tipos de atividades - 7 • MP</text>
+</navLabel>
+<content src="content/tiposatividades_prof.xhtml" />
+</navPoint>
+
+
+
+<navPoint class="section" id="un1introducao_prof" playOrder="29">
+<navLabel>
+<text>Introdução • Unidade 1 - 8 • MP</text>
+</navLabel>
+<content src="content/un1introducao_prof.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="unidade01" playOrder="30">
+<navLabel>
+<text>UNIDADE 1 - Eu e meus amigos - 8</text>
+</navLabel>
+<content src="content/unidade01.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="un1conclusao_prof" playOrder="31">
+<navLabel>
+<text>Conclusão • Unidade 1 - 23 • MP</text>
+</navLabel>
+<content src="content/un1conclusao_prof.xhtml" />
+</navPoint>
+
+
+
+<navPoint class="section" id="un2introducao_prof" playOrder="32">
+<navLabel>
+<text>Introdução • Unidade 2 - 24 • MP</text>
+</navLabel>
+<content src="content/un2introducao_prof.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="unidade02" playOrder="33">
+<navLabel>
+<text>UNIDADE 2 - Na sala de aula - 24</text>
+</navLabel>
+<content src="content/unidade02.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="un2conclusao_prof" playOrder="34">
+<navLabel>
+<text>Conclusão • Unidade 2 - 39 • MP</text>
+</navLabel>
+<content src="content/un2conclusao_prof.xhtml" />
+</navPoint>
+
+
+
+<navPoint class="section" id="un3introducao_prof" playOrder="35">
+<navLabel>
+<text>Introdução • Unidade 3 - 40 • MP</text>
+</navLabel>
+<content src="content/un3introducao_prof.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="unidade03" playOrder="36">
+<navLabel>
+<text>UNIDADE 3 - Escola para todos - 40</text>
+</navLabel>
+<content src="content/unidade03.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="un3conclusao_prof" playOrder="37">
+<navLabel>
+<text>Conclusão • Unidade 3 - 53 • MP</text>
+</navLabel>
+<content src="content/un3conclusao_prof.xhtml" />
+</navPoint>
+
+
+
+<navPoint class="section" id="un4introducao_prof" playOrder="38">
+<navLabel>
+<text>Introdução • Unidade 4 - 54 • MP</text>
+</navLabel>
+<content src="content/un4introducao_prof.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="unidade04" playOrder="39">
+<navLabel>
+<text>UNIDADE 4 - Onde você mora? - 54</text>
+</navLabel>
+<content src="content/unidade04.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="un4conclusao_prof" playOrder="40">
+<navLabel>
+<text>Conclusão • Unidade 4 - 73 • MP</text>
+</navLabel>
+<content src="content/un4conclusao_prof.xhtml" />
+</navPoint>
+
+
+
+<navPoint class="section" id="un5introducao_prof" playOrder="41">
+<navLabel>
+<text>Introdução • Unidade 5 - 74 • MP</text>
+</navLabel>
+<content src="content/un5introducao_prof.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="unidade05" playOrder="42">
+<navLabel>
+<text>UNIDADE 5 - Eu e minha casa - 74</text>
+</navLabel>
+<content src="content/unidade05.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="un5conclusao_prof" playOrder="43">
+<navLabel>
+<text>Conclusão • Unidade 5 - 89 • MP</text>
+</navLabel>
+<content src="content/un5conclusao_prof.xhtml" />
+</navPoint>
+
+
+
+<navPoint class="section" id="un6introducao_prof" playOrder="44">
+<navLabel>
+<text>Introdução • Unidade 6 - 90 • MP</text>
+</navLabel>
+<content src="content/un6introducao_prof.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="unidade06" playOrder="45">
+<navLabel>
+<text>UNIDADE 6 - Eu, os lugares e as outras pessoas - 90</text>
+</navLabel>
+<content src="content/unidade06.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="un6conclusao_prof" playOrder="46">
+<navLabel>
+<text>Conclusão • Unidade 6 - 107 • MP</text>
+</navLabel>
+<content src="content/un6conclusao_prof.xhtml" />
+</navPoint>
+
+
+
+<navPoint class="section" id="bncc_prof" playOrder="47">
+<navLabel>
+<text>Quadro BNCC - 108 • MP</text>
+</navLabel>
+<content src="content/bncc_prof.xhtml" />
+</navPoint>
+
+
+
+<navPoint class="section" id="vamosconcluir" playOrder="48">
+<navLabel>
+<text>Vamos concluir - 108</text>
+</navLabel>
+<content src="content/vamosconcluir.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="saibamais" playOrder="49">
+<navLabel>
+<text>Saiba mais - 110</text>
+</navLabel>
+<content src="content/saibamais.xhtml" />
+</navPoint>
+
+<navPoint class="section" id="referencias" playOrder="50">
+<navLabel>
+<text>Referências bibliográficas - 112</text>
+</navLabel>
+<content src="content/referencias.xhtml" />
+</navPoint>
+
+
+
+
+<!-- Inserir os tópicos do livro aqui - FIM -->
+   
+<!-- item --> 
+    <navPoint class="chapter" id="credito-imagem" playOrder="51"> 
+        <navLabel> 
+            <text>Créditos de Imagens</text> 
+        </navLabel> 
+        <content src="content/credito-imagem.xhtml" /> 
+    </navPoint>                
+
+<!-- item --> 
+    <navPoint class="chapter" id="urlsencurtadas" playOrder="52"> 
+        <navLabel> 
+            <text>URLs Encurtadas</text> 
+        </navLabel> 
+        <content src="content/urlsencurtadas.xhtml" /> 
+    </navPoint>                
+</navMap>
+
+</ncx>
