@@ -1,0 +1,1948 @@
+@charset "UTF-8";
+@import url(reset.css);
+/* CSS Document */
+
+/* Documento CSS padrão 
+livro Bons Amigos MANUAL DO PROFESSOR*/
+
+
+/* Fonte Faces - Padrão de fonte sutilizadas no livro digital 
+// Fonte Títulos: Jellee Bold
+// Fonte Citação: Damase
+// Fonte Texto Principal:  Quebec
+*/
+
+@font-face {
+  font-family: "Jellee Bold";
+  font-weight: bold;
+  font-style: normal;
+  src: url(../fonts/Jellee-Bold.woff2) format("woff2"),
+    url(../fonts/Jellee-Bold.woff) format("woff"),
+    url(../fonts/Jellee-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Damase;
+  font-weight: 300;
+  font-style: normal;
+  src: url(../fonts/damase_v2.woff2) format("woff2"),
+    url(../fonts/damase_v2.woff) format("woff"),
+    url(../fonts/damase_v2.otf) format("opentype");
+}
+
+
+.pagintruducao, .pagconclusao {
+  width: 75ch;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  hyphens: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+aside {
+  margin: 40px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Jellee Bold', sans-serif;
+  width: max-content;
+}
+
+p img {
+  vertical-align: middle;
+}
+
+p {
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1.5em;
+  hyphens: inherit;
+  orphans:3;
+  widows: 3;
+  padding: 0px 0;
+  /* text-transform: uppercase; /* específivo para os volumes 1, 2 unidade 1*/
+  text-indent: 0px;
+  text-align: left;
+}
+
+math, math mtext {
+  max-width: 100%;
+}
+table {
+  max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.alignLeft tr td{
+  text-align:left;
+}
+
+
+/* PADRÃO DE PAGINAÇÃO */
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header .pagmp {
+  align-self: flex-end;
+}
+
+.pagintruducao .pagmp {
+  border-radius: 5px;
+  background: #6c4e69;
+  color: #fff;
+  left: 0;
+  position: relative;
+  page-break-before: always;
+  padding: 8px;
+  min-width: 40px;
+  text-align: center;
+  text-indent: 0;
+  width: max-content;
+  margin: 0px;
+  font-family: 'Jellee Bold', sans-serif;
+}
+
+.pagintruducao .destaque {
+  color: #7d417d;
+}
+
+.pagconclusao .pagmp {
+  border-radius: 5px;
+  background: #00645f;
+  color: #fff;
+  left: 0;
+  font-family: 'Jellee Bold', sans-serif;
+  position: relative;
+  page-break-before: always;
+  padding: 8px;
+  min-width: 40px;
+  text-align: center;
+  text-indent: 0;
+  width: max-content;
+  margin: 0px;
+}
+
+.box_professor_mp .orienta{
+  text-align: center;
+  background:#9FD09A;
+  color: #232e22;
+  border-radius: 5px;
+  width: 100%;
+}
+.box_professor_mp .orienta span {
+  background:url(../images/seta_orienta.svg) left center no-repeat;
+  padding: 0 25px;
+  background-size: 16px;
+  text-align: center;
+}
+
+.box_conclusao_mp .box {
+  padding: 16px;
+}
+
+
+
+.box_professor_mp p,
+.box_professor_mp ul li {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 0px;
+
+}
+
+.box_professor_mp p {
+  margin: 0px;
+}
+
+.box_professor_mp h2 {
+  font-size: 1.1em !important;
+  padding: 8px 16px;
+}
+
+/* COMO DESENVOLVER ALGUNS TIPOS DE ATIVIDADE */
+.box_tipoatividade_mp {
+  background: url(../images/bg_tiposatividades.svg) top left no-repeat rgba(201, 233, 230, 1);
+  padding: 1em;
+}
+
+.box_tipoatividade_mp .ti_tiposatividade {
+  color: #fff;
+  background: rgb(0, 98, 96);
+  border-radius: 60px;
+  padding: 4px 12px;
+  font-size: 1.2em;
+  margin: -30px 0px 30px 40px;
+  text-transform: uppercase ;
+  width: 235px;
+
+}
+
+.box_tipoatividade_mp .ti_tipo2, .pagconclusao .ti_tipo2 {
+  background: url(../images/ico_legenda@2x.png) left center no-repeat;
+  padding: 0 0 0 24px;
+  color: #00645f;
+  font-size: 1.1em !important;
+  margin: 24px 0 0 0;
+}
+
+.box_tipoatividade_mp p {
+  text-align: justify;
+}
+
+.box_tipoatividade_mp .ti_dicasAtiv {
+  background: rgba(0, 98, 96, 0.2);
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px 0;
+  text-align: justify;
+}
+
+.box_tipoatividade_mp .ti_dicasAtiv span {
+  color: #00645f;
+  font-weight: bold;
+}
+
+.box_tipoatividade_mp .pagmp {
+  border-radius: 5px;
+  background: #00645f;
+  color: #fff;
+  left: 0;
+  font-family: 'Jellee Bold', sans-serif;
+  position: relative;
+  page-break-before: always;
+  padding: 8px;
+  min-width: 40px;
+  text-align: center;
+  text-indent: 0;
+  width: max-content;
+  margin: 0px;
+}
+/* QUADRO BNCC */
+.quadro_bncc {
+  background:url(../images/bg_bncc.svg) top left no-repeat #f5eef7;
+  padding: 1em;
+  margin: 0px;
+}
+.quadro_bncc header + p {
+  margin-top: 2em ;
+}
+
+.quadro_bncc .ti_intro {
+  background: #6c4e69;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1em;
+  margin: -25px 0 2em 30px;
+  padding: 8px 16px;
+  text-align: center;
+  width: 240px;
+  text-transform: uppercase;
+}
+
+.quadro_bncc .tb_roxo td{
+  background-color: #f5eef7;
+  text-align: left;
+}
+
+.quadro_bncc .pagmp {
+    border-radius: 5px;
+    background: #6c4e69;
+    color: #fff;
+    left: 0;
+    font-family: 'Jellee Bold', sans-serif;
+    position: relative;
+    page-break-before: always;
+    padding: 8px;
+    min-width: 40px;
+    text-align: center;
+    text-indent: 0;
+    width: max-content;
+    margin: 0px;
+  }
+
+
+/* INTRODUÇÃO MANUAL DO PROFESSOR */
+
+
+.box_introducao_mp  section{
+  background:url(../images/bg_introducao.svg) top left no-repeat #f5eef7;
+  padding: 1em;
+  margin: 0px;
+
+}
+
+.box_introducao_mp .ti_intro {
+  background: #6c4e69;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1.1em;
+  margin: -60px 0 2em 1px;
+  padding: 8px 16px;
+  text-align: center;
+  width: max-content;
+  text-transform: uppercase;
+}
+
+.box_introducao_mp .ti_obj {
+  color: #6c4e69;
+  font-size: 1em;
+  margin: 8px 0 8px 0;
+}
+
+/* CONCLUSÃO MANUAL DO PROFESSOR */
+
+.box_conclusao_mp {
+
+
+}
+.box_conclusao_mp  section {
+  background: url(../images/bg_conclusao.svg) top left no-repeat rgba(201, 233, 230, 1);
+  padding: 1em ;
+
+}
+
+.box_conclusao_mp .ti_intro {
+  background: #006260;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1.1em;
+  margin: -60px 0 2em 1px;
+  padding: 8px 16px;
+  text-align: center;
+  width: max-content;
+  text-transform: uppercase;
+}
+
+.box_conclusao_mp h2 {
+  background: #00645f;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  margin: 16px 0 0 0;
+  padding: 8px 16px;
+  text-align: center;
+  width: 200px;
+  font-size: 1em;
+}
+
+.box_conclusao_mp hr {
+  border: 2px solid #00645f;
+  margin: 0 16px 0 0;
+}
+
+.box_conclusao_mp .obj {
+  background: rgba(0, 98, 96, 0.2);
+  border-radius: 10px;
+  margin: 16px 0;
+  padding: 16px;
+}
+
+.box_conclusao_mp .conclusao_tiresp_mp {
+  font-size: 1em;
+  font-weight: bold;
+  color: #9d3518;
+  padding: 0px;
+  text-align: left;
+  margin: 0px;
+}
+
+.box_conclusao_mp span {
+  color: #00645f;
+  font-weight: bold;
+}
+
+.box_bncc,
+.box_resposta,
+.box_resposta_letra,
+.box_atividade_ex,
+.box_avaliando,
+.box_referencias_comp,
+.box_objetivos,
+.box_roteiro,
+.tx_principal_mp,
+.tx_citacao_mp,
+.box_bnccpna,
+.box_pna {
+  padding: 0 0 16px 0;
+  margin: 24px 0;
+}
+
+
+.box_professor_mp ul,
+.box_professor_mp ol {
+  margin: 0 0 0px 8px;
+  padding: 8px;
+}
+
+.pagintruducao ul, .pagconclusao ul {
+  margin: 0px;
+  padding: 8px 16px;
+}
+
+.box_professor_mp ul li,
+.box_introducao_mp ul li,
+.pagintruducao ul li, .pagconclusao ul li,
+.box_conclusao_mp .box_objetivoIntro, #referenciasComp ul li {
+  list-style: url(../images/seta_laranja.svg);
+  padding: 0 0 0 0px;
+  font-size: 1em;
+  line-height: 1.5em;
+
+}
+
+
+
+.box_professor_mp ul li ul li {
+  list-style: url(../images/bollet_verde.svg);
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.box_professor_mp ol li {
+  padding: 0 0 0 8px;
+}
+
+.box_professor_mp .li_boverde li {
+  list-style: url(../images/bollet_verde.svg) !important;
+  margin: 0 0 0 8px;
+}
+
+.li_boverde li {
+  list-style: url(../images/bollet_verde.svg) !important;
+  margin: 0 0 0 8px;
+}
+
+.box_professor_mp .num_con {
+  font-size: 1em;
+  font-weight: bold;
+  color: #9d3518;
+  margin: 0 4px 0 0;
+}
+
+.box_professor_mp .inlinha {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box_professor_mp .ti_resposta,
+.pagintruducao .ti_resposta,
+.pagconclusao .ti_resposta {
+  font-weight: bold;
+  color: #9d3518;
+  margin: 8px 0 0 0;
+}
+
+/* BOX BNCC e PNA */
+
+.box_bnccpna .box {
+  background: #dfcce4;
+  border-radius: 0 0 10px 10px;
+  border-top: 2px solid #92278f;
+  padding: 10px 16px 16px 16px;
+}
+
+.box_bnccpna h2 {
+  background-color: #92278f;
+  border-radius: 10px 10px 0 0;
+  color: #fff !important;
+  margin: 0px;
+  padding: 8px 16px !important;
+  text-align: center;
+  width: max-content;
+}
+
+.box_bnccpna span {
+  color: #7d417d;
+}
+
+.box_bnccpna p {
+  text-indent: 0px;
+}
+
+/* BNCC */
+
+.box_bncc .box {
+  background: #dfcce4;
+  border-radius: 0 0 10px 10px;
+  border-top: 2px solid #92278f;
+  padding: 10px 16px 16px 16px;
+}
+
+.box_bncc h2 {
+  background-color: #92278f;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  margin: 0;
+  padding: 8px 16px;
+  text-align: center;
+  width: 100px;
+}
+
+.box_bncc span {
+  color: #7d417d;
+}
+
+.box_bncc p {
+  text-indent: 0px;
+}
+
+/*PNA*/
+
+.box_pna .box {
+  background: #dfcce4;
+  border-radius: 0 0 10px 10px;
+  border-top: 2px solid #92278f;
+  padding: 10px 16px 16px 16px;
+}
+
+.box_pna h2 {
+  background-color: #92278f;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  margin: 0px;
+  padding: 8px 16px;
+  text-align: center;
+  width: max-content;
+}
+
+.box_pna span {
+  color: #7d417d;
+}
+
+.box_pna p {
+  text-indent: 0px;
+}
+
+/* RESPOSTA */
+
+.box_resposta .box {
+  background: rgba(218, 235, 193, 0.4);
+  border-radius: 0 10px 10px 10px;
+  border: 1px solid #ffcb05;
+  padding: 10px;
+}
+
+.box_resposta h2 {
+  background: rgba(218, 235, 193, 0.4);
+  border-left: 1px solid #ffcb05;
+  border-radius: 10px 10px 0 0;
+  border-right: 1px solid #ffcb05;
+  border-top: 1px solid #ffcb05;
+  margin: 0px;
+  padding: 8px 16px;
+  text-align: center;
+  width: max-content;
+}
+
+.box_resposta h2,
+.box_resposta span,
+.box_resposta_letra h2, .box_resposta_letra h3,
+.box_resposta_letra ul li span {
+  color: #9d3518;
+  font-weight: bold;
+}
+
+.box_resposta table {
+  font-family: sans-serif;
+  line-height: 140%;
+}
+
+.box_resposta table caption {
+  background: rgba(117, 184, 66, 0.5);
+  font-weight: bold;
+}
+
+.box_resposta table tr .tb_li {
+  background: rgba(117, 184, 66, 0.2);
+  font-weight: bold;
+  text-align: center;
+}
+
+.box_resposta table tr th {
+  background: rgba(117, 184, 66, 0.5);
+  font-weight: bold;
+}
+
+.box_resposta table,
+.box_resposta table tr td,
+.box_resposta table tr th,
+.box_resposta table caption {
+  border: 1px solid #75b842;
+  padding: 8px;
+}
+
+/* ORIETAÇÕES COMPLEMENTARES */
+.box_orientacoesComp .box {
+  background: rgba(218, 235, 193, 0.4);
+  border-radius: 0 10px 10px 10px;
+  border: 1px solid #ffcb05;
+  padding: 10px;
+}
+
+.box_orientacoesComp h2 {
+  background: rgba(218, 235, 193, 0.4);
+  border-left: 1px solid #ffcb05;
+  border-radius: 10px 10px 0 0;
+  border-right: 1px solid #ffcb05;
+  border-top: 1px solid #ffcb05;
+  margin: 0px;
+  padding: 8px 16px;
+  text-align: center;
+  width: max-content;
+  color: #9d3518;
+
+}
+.box_orientCompLetra{
+  margin-top: 1em;
+}
+.box_orientCompLetra .box {
+  background: rgba(218, 235, 193, 0.4);
+  border-radius: 0 10px 10px 10px;
+  border: 1px solid #ffcb05;
+  padding: 10px;
+}
+
+.box_orientCompLetra h2 {
+  background: rgba(218, 235, 193, 0.4);
+  border-left: 1px solid #ffcb05;
+  border-radius: 10px 10px 0 0;
+  border-right: 1px solid #ffcb05;
+  border-top: 1px solid #ffcb05;
+  margin: 0px;
+  padding: 8px 16px !important;
+  text-align: center;
+  width: max-content;
+  color: #7b4c16;
+}
+
+/*  BOX RESPOSTA LETRA */
+
+.box_resposta_letra {
+  background: rgba(255, 203, 5, 0.3);
+  border-radius: 10px 10px 10px 10px;
+  padding: 16px;
+}
+
+.box_resposta_letra h2 {
+  border-radius: 10px 10px 0 0;
+  font-size: 1.2em;
+  margin: 0px 0 8px 0px;
+  padding: 0;
+}
+
+.box_resposta_letra h3 {
+  border-radius: 10px 10px 0 0;
+  font-size: 1.1em;
+  margin: 8px 0 0 0;
+  padding: 0;
+}
+
+.box_resposta_letra p {
+  text-indent: 0px;
+}
+
+.box_resposta_letra .ti_vamosavaliar {
+  background: url(../images/ba_vamos_avaliar.svg) center left no-repeat;
+  background-size: auto;
+  background-size: 35px;
+  padding: 4px 0 4px 40px;
+  font-size: 1.3em;
+  font-family: "Jellee Bold";
+}
+
+
+.box_resposta_letra .ti_vamosconcluir, .box_resposta_letra  .ti_vamosiniciar {
+  margin: 0 0 8px 0px !important;
+}
+/* BOX ENTRE TEXTOS MP */
+.box_entretextos_mp {
+  background: rgba(218, 235, 193, 0.4);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.box_entretextos_mp .ti_entreTX {
+  background: #7b4c16;
+  border-radius: 30px;
+  color: #fff200;
+  padding: 4px 16px;
+}
+
+.box_entretextos_mp .ti_entreTX span {
+  color: #fff;
+}
+
+/*  BOX VAMOS INICIAR */
+.box_vamos_iniciar {
+  background: rgba(255, 203, 5, 0.3);
+  border-radius: 10px 10px 10px 10px;
+  padding: 16px;
+}
+.box_vamos_iniciar .ti_vamosiniciar {
+  margin: 0 0 16px 0 !important;
+}
+
+.box_vamos_iniciar h2 {
+  border-radius: 60px;
+  background: #b0141a;
+  background: url(../images/bg_vamos_a@2x.png) top left no-repeat;
+  color: #fff;
+  font-size: 1.1em;
+  margin: 0px 0 8px 0px;
+  padding: 4px 8px 4px 35px;
+}
+
+.box_vamos_iniciar h3 {
+  border-radius: 10px 10px 0 0;
+  font-size: 1em;
+  margin: 10px 0 8px 0px;
+  padding: 0;
+  color:#B2462B;
+}
+
+/* BOX VAMOS AVALIAR */
+
+.box_vamos_avaliar {
+  background: rgba(255, 203, 5, 0.3);
+  border-radius: 10px 10px 10px 10px;
+  padding: 16px;
+}
+.box_vamos_avaliar .ti_vamosavaliar {
+  padding: 4px 0 4px 40px;
+}
+.box_vamos_avaliar h2 {
+  border-radius: 10px 10px 0 0;
+  font-size: 1.2em;
+  margin: 0px 0 8px 0px;
+  padding: 0;
+}
+
+.box_vamos_avaliar h3 {
+  font-size: 1em;
+  color:#B2462B;
+}
+
+/* BOX VAMOS CONCLUIR */
+
+.box_vamos_concluir {
+  background: rgba(255, 203, 5, 0.3);
+  border-radius: 10px 10px 10px 10px;
+  padding: 16px;
+  margin: 16px 0;
+}
+.box_vamos_concluir .ti_vamosconcluir {
+  margin: 0 0 16px 0 !important;
+}
+.box_vamos_concluir h2 {
+  border-radius: 10px 10px 0 0;
+  font-size: 1.2em;
+  margin: 0px 0 8px 0px;
+  padding: 0;
+}
+
+.box_vamos_concluir h3 {
+  font-size: 1em;
+  color:#B2462B;
+}
+
+/* BOX ATIVIDADE EXTRA */
+
+.box_atividade_ex .box {
+  background: rgba(218, 235, 193, 0.4);
+  border-radius: 0 0 10px 10px;
+
+  border: 1px solid #973947;
+  padding: 10px 16px;
+}
+
+.box_atividade_ex h2 {
+  background: #973947;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 8px 16px;
+  text-align: center;
+  width: max-content;
+}
+
+.box_atividade_ex p {
+  text-indent: 0px;
+}
+
+.box_atividade_ex ul li {
+  list-style: url(../images/seta_laranja.svg);
+}
+.box_atividade_ex .tx_letra{
+  margin: 0 0 0 13px;
+}
+
+/* BOX AVALIANDO */
+
+.box_avaliando .box {
+  background: #c9e9e6;
+  border-radius: 0 0 10px 10px;
+  border-top: 2px solid #00645f;
+  padding: 16px;
+}
+
+.box_avaliando h2 {
+  background: #00645f;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 8px 16px;
+  text-align: center;
+  width: max-content;
+}
+
+.box_avaliando h3 {
+  color: #9d3518;
+  font-size: 1em;
+  margin-bottom: 8px;
+}
+
+.box_avaliando p {
+  text-indent: 0px;
+}
+
+/* BOX REFERÊNCIAS COMPLEMENTARES */
+
+
+.box_referencias_comp {
+  background: rgba(0, 93, 138, 0.25);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.box_referencias_comp h2 {
+  color: #005d93;
+  padding: 0 0 0 0;
+}
+
+/* BOX OBJETIVO */
+
+.box_objetivos .box {
+  background: #fff;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid #9d3518;
+  padding: 10px;
+  padding: 8px 16px;
+}
+
+.box_objetivos h2 {
+  background: #9d3518;
+  border-radius: 10px 10px 0 0;
+  color: #fff !important;
+  margin: 0px;
+  padding: 8px 16px;
+  text-align: center;
+  width: max-content;
+}
+
+/* BOX ROTEIRO */
+
+.box_roteiro .box {
+  background: #ecddee;
+  border-radius: 0 0 10px 10px;
+
+  border-top: 2px solid #6c4e69;
+  padding: 10px;
+}
+
+.box_roteiro h2 {
+  background: #5a4158;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  margin: 0px;
+  max-width: 100%;
+  padding: 8px 16px;
+  text-align: center;
+  width: max-content;
+}
+
+.box_roteiro h3 {
+  background-color: #6c4e69;
+  border-radius: 20px;
+  color: #fff;
+  width: max-content;
+  padding: 4px 16px;
+  margin: 16px 0 8px 0;
+}
+
+.box_roteiro h4 {
+  background-color: #ffefdd;
+  border-radius: 20px;
+  color: #6c4e69;
+  width: max-content;
+  max-width: 100%;
+  padding: 4px 16px;
+  margin: 8px 0;
+}
+
+.box_roteiro .box_roxo {
+  width: 100%;
+}
+
+.box_roteiro .box_roxo p {
+  color: #5e435a;
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.box_roteiro ul {
+  margin: 0px;
+  padding: 0px 16px;
+}
+
+/* TEXTO PRINCIPAL MANUAL DO PROFESSOR */
+
+.tx_principal_mp {
+  background: rgba(218, 235, 193, 0.4);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.tx_principal_mp h2,
+.tx_citacao_mp h2 {
+  font-size: 1.2em;
+  padding: 0;
+}
+
+.tx_principal_mp .ti_entretextos {
+  background: url(../images/bg_ti_entre_ace.svg) left center no-repeat;
+  background-size: auto;
+  background-size: 100%;
+  width: max-content;
+  padding: 10px 16px 8px 16px;
+  color: #fff;
+  font-size: 1.2em;
+  font-family: "Jellee Bold";
+}
+
+.tx_principal_mp table {
+  font-family: sans-serif;
+  line-height: 140%;
+}
+
+.tx_principal_mp table caption {
+  background: rgba(117, 184, 66, 0.5);
+
+}
+
+.tx_principal_mp table tr th, .tx_principal_mp table tr .ti_table {
+  background: rgba(117, 184, 66, 0.2);
+  font-weight: bold;
+}
+
+.tx_principal_mp table .vazio {
+  visibility: hidden;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+
+
+.tx_principal_mp table,
+.tx_principal_mp table tr td,
+.tx_principal_mp table tr th,
+.tx_principal_mp table caption {
+  border: 1px solid #75b842;
+  padding: 8px;
+}
+
+.tx_principal_mp .bncc tr td ul li {
+
+  list-style: url(../images/bollet_verde.svg);
+}
+
+.tx_citacao_mp {
+  background: rgba(218, 235, 193, 1);
+  border-radius: 10px;
+  padding: 16px;
+}
+.tx_citacao_mp h3 {
+  font-family: Damase;
+}
+
+.tx_citacao_mp blockquote ul li {
+  background: none;
+  list-style: disc;
+  margin: 0 16px;
+  padding: 0px;
+}
+
+.tx_principal_mp .fonte {
+  margin: 16px 0 !important;
+}
+
+.coletivamente_mp {
+  color: #7d417d;
+  margin: 0 0 16px 0;
+}
+
+.resposta {
+  background: none;
+  color: #aa0065;
+}
+
+.manu_geral .citacao {
+  padding: 0 1.5em 0 1.5em;
+}
+.manu_geral .citacao + .fonte {
+  padding: 0 1.5em 0 1.5em;
+}
+
+.tb_mg {
+  border: 1px solid #fff;
+  font-family: sans-serif;
+}
+
+/**/
+.tb_mg .linha1 {
+  background: rgba(249, 157, 51, 0.2);
+}
+
+.tb_mg .linha2 {
+  background-color: rgba(199, 143, 191, 0.2);
+  border: 1px solid #fff !important;
+}
+
+.tb_mg th {
+  background: rgba(0, 175, 173, 0.3);
+  border: 1px solid #fff !important;
+}
+
+.tb_mg td {
+  border: 1px solid #fff !important;
+  font-size: 1em;
+  text-align: left;
+}
+
+.tb_mg td ul,
+.tb_mg td ul li {
+  text-align: left;
+}
+
+.trimestre {
+  background-color: #006463 !important;
+}
+
+.trimestre {
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 8px 4px;
+  width: 30px;
+  writing-mode: sideways-lr;
+}
+
+.bimestre {
+  background-color: rgba(0, 175, 172, 0.3) !important;
+  color: rgb(0, 71, 70) !important;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 8px 4px;
+  width: 30px;
+  writing-mode: sideways-lr;
+}
+
+.semana1 {
+  background-color: rgb(249, 157, 51) !important;
+  font-weight: bold;
+  padding: 8px 4px;
+  width: 30px;
+  writing-mode: sideways-lr;
+}
+
+.aula1 {
+  background-color: rgba(248, 157, 51, 0.5) !important;
+  color: rgb(70, 35, 70);
+  font-size: 1em;
+  font-weight: bold;
+  padding: 8px 4px;
+  width: 30px;
+  width: max-content;
+  writing-mode: sideways-lr;
+}
+
+.semana2 {
+  background-color: #c78fbf;
+  font-weight: bold;
+  padding: 8px 4px;
+  width: 30px;
+  writing-mode: sideways-lr;
+}
+
+.aula2 {
+  background-color: rgba(199, 143, 191, 0.5);
+  color: rgb(70, 35, 70);
+  font-size: 1em;
+  font-weight: bold;
+  padding: 8px 4px;
+  width: 30px;
+  width: max-content;
+  writing-mode: sideways-lr;
+}
+
+.tb_verde {
+  font-family: "Quebec-Regular", sans-serif;
+  text-align: left;
+  margin: 20px 0 0 0;
+}
+
+.tb_verde td {
+  background-color: #fff;
+  border: 1px solid #6fbf54;
+  text-align: left;
+}
+
+.tb_verde th {
+  border: 1px solid #6fbf54;
+  background: rgba(111, 191, 84, 0.3);
+}
+
+.tb_verde .ti {
+  background: rgba(111, 191, 84, 0.7);
+}
+
+
+/* Tabela Roxa */
+
+.tb_roxo {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: 20px 0 0 0;
+}
+
+.tb_roxo td {
+
+  border: 1px solid #A154A1;
+  text-align: left;
+  margin: 0;
+  padding: 8px 16px;
+}
+
+.tb_roxo th {
+  border: 1px solid #A154A1;
+  background: rgba(161, 84, 161, 0.5);
+}
+
+.tb_roxo .ti_table {
+  background: rgba(161, 84, 161, 0.8);
+}
+
+
+.tb_mg .vazio {
+  background-color: #fff !important;
+  border: none;
+}
+
+.tb_mg {
+  width: 100%;
+}
+
+.tb_mg .avaliacao,
+.tb_mg .bncc,
+.tb_mg .conteudo {
+  padding: 0 0 0 10px;
+}
+
+.tb_mg .avaliacao li {
+  list-style-image: url(../images/quadrado_laranja.svg);
+}
+
+.tb_mg .lg_avaliacao {
+  background: url(../images/quadrado_laranja.svg) no-repeat;
+  background-position-y: 4px;
+  background-position-x: 0px;
+  padding: 0 0 0 18px;
+  list-style: none;
+}
+
+.tb_mg .bncc li {
+  list-style-image: url(../images/estrela_laranja.png);
+}
+
+.tb_mg .lg_bncc {
+  background: url(../images/estrela_laranja.png) no-repeat;
+  background-position-y: 4px;
+  background-position-x: 0px;
+  padding: 0 0 0 18px;
+  list-style: none;
+}
+
+.tb_mg .conteudo li {
+  list-style-image: url(../images/seta_laranja.svg);
+  background-position-y: 8px;
+  background-position-x: 0px;
+  padding: 0 0 0 0px;
+}
+
+.tb_mg .lg_conteudo {
+  background: url(../images/seta_laranja.svg) no-repeat;
+  background-position-y: 2px;
+  background-position-x: 0px;
+  padding: 0 0 0 16px;
+  list-style: none;
+}
+
+.manu_geral {
+  margin: 0 auto;
+}
+
+.manu_geral p {
+  text-indent: 24px;
+}
+
+.manu_geral .fonte, .box_professor_mp {
+  text-indent: 0px;
+  margin-top: 16px;
+
+
+}
+.manu_geral .pag {
+  text-indent: 0px;
+  text-align: center;
+}
+
+.manu_geral .pag {
+  text-indent: 0px;
+  text-align: center;
+}
+
+.manu_geral p,
+.manu_geral ul li,
+.manu_geral ol li,
+.manu_geral blockquote {
+  max-width: 100%;
+  text-align: justify;
+}
+
+.manu_geral .fonte {
+  text-align: right;
+}
+
+.manu_geral ul,
+.manu_geral ol {
+  padding: 0 0 0 16px;
+}
+
+.manu_geral ul li {
+  list-style-image: url(../images/seta_laranja.svg);
+  font-size: 1em;
+}
+
+.manu_geral ol li {
+  list-style-position: inside;
+  font-size: 1em;
+}
+
+.manu_t2 {
+  color: #39622b;
+  background: url(../images/20.jpg) no-repeat;
+  background-position-y: 0px ;
+  background-position-x: 0px ;
+  padding: 0 0 0 28px;
+  font-size: 1.6em;
+  max-width: 100%;
+  text-transform: none;
+  margin: 24px 0 0 0;
+  margin: 1em 0 0.5em 0;
+  word-break: break-word;
+}
+
+.manu_t3 {
+  color: #824317;
+  font-size: 1.4em;
+  max-width: 100%;
+  text-transform: none;
+  margin: 24px 0 0 0;
+  line-height: 130%;
+  margin: 1em 0 0.5em 0;
+  word-break: break-word;
+}
+
+.manu_t4s {
+  color: #000;
+  font-size: 1.3em;
+  word-break: break-word;
+  max-width: 100%;
+  text-transform: none;
+  word-break: break-word;
+  margin: 1em 0 0.6em 0;
+}
+
+.manu_t4 {
+  background: url(../images/ico_legenda@2x.png) top left no-repeat;
+  background-position-y: 4px;
+  background-position-x: 0px;
+  color: #000;
+  font-size: 1.1em;
+  padding: 0 0 0 24px;
+  max-width: 75ch;
+  text-transform: none;
+  margin: 1em 0 0.5em 0;
+  word-break: break-word;
+}
+
+.manu_tiq {
+  background-color: #91268f;
+  color: #fff;
+  font-size: 1em;
+  margin: 0;
+  padding: 4px 16px;
+  border-radius: 10px 10px 0px 0;
+  margin-top: 1em;
+}
+
+.manu_geral .lista_roxa {
+  max-width: 100%;
+  background: #dfcce4;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+.manu_geral .lista_roxa li {
+  border: 1px solid #91268f;
+  padding: 16px;
+  text-align: left;
+}
+
+.li_referencias li {
+  list-style-image: url(../images/seta_laranja.svg);
+}
+
+.li_referencias .bibl_comen {
+  list-style: none;
+}
+
+
+.contornoTurquesa {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 175, 173, 0.4);
+  width: 100%;
+  padding: 4px 16px !important;
+  margin: 16px 0 !important;
+}
+
+.bg_branco {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* INDICAÇÃO DE REMISSIVOS */
+.box_professor_mp .remissivo {
+  background-color: #B0141A;
+  border-radius: 50%;
+  color: #fff;
+  font-family: 'Jellee Bold', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 2px 8px !important;
+  width: max-content;
+}
+
+.manu_gera .competenciasGeraisMP {
+  width: 100%;
+  max-width: 100%;
+}
+
+.competenciasGeraisMP .li_num {
+  color: #92278F;
+  font-family: 'Jellee Bold', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.acaoDocente .acaoTopico {
+  color: #92278F;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* ESPECIFICAÇÃO DIRETA DE ARTES */
+.box_conclusao_mp .box_objetivoIntro {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin: 16px 0 !important;
+  padding: 0 0 16px 0;
+}
+
+/* ESPECIFICAÇÃO DIRETA DE PORTUGUÊS */
+/*Conclusão*/
+.topicos_conclusaoPor {
+  background: url(../images/ico_legenda@2x.png) center left no-repeat;
+  color: rgba(0, 98, 96, 1);
+  padding: 0 0 0 22px;
+}
+
+/* CSS FICHA */
+
+.elaboradores {
+  color: #000;
+  font-size: 1.1em;
+  margin: 50px 0 1em 0;
+}
+
+.ambiente, .ficha .ambiente {
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 2em 0 0em 0;
+  padding: 1em;
+}
+
+
+.ficha ul{
+  margin:0 0 1em 0;
+}
+.ficha p {
+  margin:0 0 0.5em 0;
+}
+
+.info_editorial, .dados_editora, .dados_grafica {
+  margin: 50px 0 0 0;
+}
+
+
+/* PÁGINA DO MANUAL GERAL PÁGINAS DO INDEX.XHTML MATEMÁTICA */
+#apresentacao h1 {
+  background: #39622B;
+  border-radius: 50px;
+  padding: 8px 16px;
+  color: #fff;
+  width: max-content;
+  max-width: 100%;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+#apresentacao h2 {
+  font-size: 1.3em;
+}
+
+#apresentacao p {
+  margin:0.5em 0;
+  text-align: justify;
+  hyphens: none;
+  text-indent: 2em;
+}
+
+#apresentacao .pag {
+  border-radius: 5px;
+background: #9d3518;
+color: #fff;
+left: 0;
+position: relative;
+page-break-before: always;
+padding: 8px;
+min-width: 40px;
+text-align: center;
+text-indent: 0;
+width: max-content;
+font-family: "Jellee Bold";
+}
+
+#apresentacao h2 {
+  color: #39622B;
+}
+
+#sumario{
+  color: #fff;
+border-radius: 30px;
+background: #29642B;
+padding: 4px 16px;
+width: max-content;
+margin-bottom: 1em;
+}
+
+
+.sumarioMP ol {
+  margin-bottom: 10px ;
+}
+
+
+.sumarioMP li a {
+  color: #39622B;
+  font-weight: bold;
+
+}
+
+.sumarioMP .itemMP {
+  background: url(../images/ico_item_sumario.jpg) center left no-repeat;
+  padding: 0 0 0 20px;
+}
+
+.sumarioMP li ol {
+  padding: 0 0 0 16px;
+}
+
+.sumarioMP li ol li a {
+  color: #000;
+  font-weight: normal;
+  background: none;
+
+}
+
+.sumarioMP .box_roxo a, .sumarioMP .box_turquesa a {
+  color: #000;
+  font-weight: normal;
+  background-image: none;
+}
+
+.sumarioMP .introUni {
+  margin: 35px 0 0 0;
+  background: rgba(223, 204, 228, 0.6);
+
+}
+
+.sumarioMP .desenAtividade {
+  margin: 20px 0 20px 0;
+  background: rgba(0, 175, 173, 0.2);
+
+}
+
+.sumarioMP .desenAtividade a {
+  color: #000 !important;
+  padding: 0 8px;
+  font-weight: 200;
+  
+}
+
+
+.sumarioMP .introUni a {
+  color: #000;
+  font-weight: normal;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.sumarioMP .concUni {
+  margin: 0 0 35px 0;
+  background: rgba(0, 175, 173, 0.2);
+}
+
+.sumarioMP .concUni a {
+
+  color: #000;
+  font-weight: normal;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.sumarioMP .uniSuma {
+  padding: 4px 8px;
+}
+
+.sumarioMP .uniSuma a {
+  color: #000;
+}
+
+.sumarioMP .itens_finais, .sumarioMP .itens_iniciais {
+  margin: 20px 0 0 0;
+}
+
+.sum_legenda {
+  margin: 2em 0;
+}
+
+.bloco1, .bloco2 {
+  margin-top: 1em;
+}
+
+
+
+/* SUMÁRIO LIVRO TEXTO */
+.sumario_aluno ol li a {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.sumario_aluno .categoria {
+  color: #9D3518;
+  font-weight: bold;
+}
+
+.numUni {
+  margin: 30px 0 0 0;
+}
+
+.destaque_unidade {
+  color: #39622B;
+  font-weight: bold;
+  font-family: 'Jellee Bold', sans-serif !important;
+}
+
+.numUni ol li a {
+  color: #000;
+  font-weight: normal;
+}
+
+.numUni ol li ol {
+  margin: 0 0 0 16px;
+}
+
+.sumario_aluno .sec_tema {
+  background-image: none;
+}
+.sec_tema {
+  margin: 0 0 0px 0;
+}
+
+.sec_tema .tema {
+  color: #39622B;
+  font-weight: bold;
+}
+
+.sec_tema ol {
+  padding: 0 0 0 8px;
+}
+
+.sec_tec span, .sec_inv span {
+  font-weight: bold;
+}
+
+.sec_inv {
+  background: url(../images/ico_inv_turquesa.svg) center left no-repeat;
+  padding: 0 0 0 20px;
+  background-size: 16px;
+}
+
+
+.sec_tec {
+  background: url(../images/ico_tec_azul.svg) center left no-repeat;
+  padding: 0 0 0 20px;
+  background-size: 16px;
+}
+
+.sec_sub {
+  background: url(../images/ico_legenda@2x.png) center left no-repeat;
+  padding: 0 0 0 20px;
+  background-size: 16px;
+}
+
+.sec_ava {
+  background: url(../images/bg_vamos_a.png) center left no-repeat;
+  padding: 0 0 0 20px;
+}
+
+.sec_voca {
+  background: url(../images/bg_explorar@2x.png) center left no-repeat;
+  background-size: 18px;
+  padding: 0 0 0 20px;
+}
+
+.sec_voca .sec_expvocabulario {
+  font-weight: bold;
+}
+
+
+.sec_divir {
+  background: url(../images/ico_divirtase.jpg) center left no-repeat;
+  padding: 0 0 0 20px;
+}
+
+.sec_saiba {
+  background: url(../images/bg_saiba_a.png) center left no-repeat;
+  padding: 0 0 0 20px;
+}
+
+.sec_mater {
+  background: url(../images/bg_material.png) center left no-repeat;
+  padding: 0 0 0 20px;
+}
+
+.final_menu {
+  color: #B2462B;
+  font-weight: bold;
+}
+
+.sec_coletivamente, .sec_vamosavaliar, /*.sec_divirtase,*/ .sec_ava .sec_vamosavaliar {
+  font-weight: bold;
+}
+
+
+/* DIAGRAMA */
+.box_diagrama {
+
+  margin: 1em 0 1em 0;
+}
+
+.box_diagrama h2 {
+  background: #6c4e69;
+  color: #fff;
+  border-radius: 0px 60px 60px 0px;
+  padding: 4px 16px;
+  font-size: 1em;
+  margin: 0 0 10px 0;
+  width: max-content;
+
+}
+
+.box_diagrama ul {
+  padding: 0px;
+}
+
+.box_diagrama ul li {
+  background: url(../images/seta_laranja.svg) top no-repeat rgba(125, 65, 125, 0.2);
+  background-position: 5px 8px;
+  padding: 2px 16px;
+  border-radius: 5px;
+  margin: 6px 0;
+  width: max-content;
+  list-style: none;
+}
+
+
+/* BOXS AVALIAÇÃO DIAGNÓSTICA */
+.avaliacoDianostica{
+  margin: 1em 0;
+}
+.avaliacoDianostica h2, .avaliacoDianostica h3 {
+  color: #000;
+  font-size: 1.1em;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.avaliacoDianostica .box_roxo {
+  border-radius: 10px 10px 0 0 !important;
+  background: rgb(223, 204, 228);
+}
+
+.avaliacoDianostica .box_laranja {
+  border-radius: 0 0 10px 10px !important;
+  background: rgba(255, 138, 4, 0.4);   
+}
+
+.avaliacoDianostica .box_laranja,
+.avaliacoDianostica .box_roxo {
+  padding:1em;
+}
+
+/* REFERÊNCIAS BIBLIOGRPAFICAS COMENTADAS */
+
+.referenciasComentadasMG, #referenciasComplementares {
+  background: #29642B;
+  color: #fff;
+  border-radius: 60px;
+  padding: 4px 16px;
+  margin: 0.5em 0px ;
+  font-size: 1.3em;
+  width: max-content;
+  max-width: 100%;
+}
+
+.ti_refMP {
+  background: #f89d33;
+  color: #5f1f0d;
+  border-radius: 60px;
+  padding: 4px 16px;
+  font-size: 1em;
+  width: max-content;
+  max-width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.referenciasMP .bibl_comen {
+  background: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.referPara {
+  background: url(../images/20.jpg) left top no-repeat;
+  color: #29642B;
+  padding: 0 0 0 32px;
+}
+
+.ti_ref_arte {
+  color:rgb(117, 53, 105);
+  background: url(../images/ico_legenda@2x.png)  no-repeat;
+  background-position-x:0 ;
+  background-position-y:5px ;
+  background-size: 16px;
+  padding: 0 0 0 22px;
+  margin: 2em 0 0.5em 0;
+  font-size: 1.1em;
+}
+/* BOX REFERÊNCIAS BIBLIOGRÁFICAS COMENTADAS - MANUAL DO PROFESSOR */
+.ref_comentadas {
+  background:url(../images/bg_ref_comentadas.svg) top left no-repeat #F4F6E8;
+  padding-bottom: 2em;
+  
+}
+.ref_comentadas_ {
+  background: #F4F6E8;
+  padding-bottom: 2em;
+  
+}
+.ref_comentadas header, .ref_comentadas_  header{
+  margin:  0 0 2em 0;
+}
+.ref_comentadas .titulo1 {
+  color: #fff;
+  width: 200px;
+  margin: -25px 0 0 90px;
+  font-size: 1.2em;
+}
+.ref_comentadas h2 {
+  color: #fff;
+  margin: 0 0 0 90px;
+}
+.ref_comentadas h3, .ref_comentadas_ h3{
+ margin: 2em 2em 0.5em 2em;
+}
+
+.ref_comentadas ol, .ref_comentadas_  ol{
+  margin:0px ;
+  padding: 0px  2em;
+}
+.ref_comentadas ol li, .ref_comentadas_ ol li{
+  margin: 8px 0;
+  line-height: 1.5em;
+  text-transform:none;
+}
+.bibl_comen {
+  background: url(../images/seta_laranja.svg) no-repeat;
+  background-position-y:10px;
+  background-position-x:0px;
+  padding: 0 0 0 16px;
+}
+
+/* BOX REFERÊNCIAS COMPLEMENTARES PARA O PROFESSOR */
+.box_refenciacom .box_roxo1{
+  margin-bottom: 0px;
+  border-radius: 10px 10px 0 0 ;
+  width: 100%;
+}
+.box_refenciacom  .box_laranja1{
+  margin-top: 0px;
+  width: 100%;
+  border-radius: 0 0  10px 10px;
+}
+
+.ref_complementares {
+  background:url(../images/bg_ref_complementares.svg) top left no-repeat #f5eef7;
+  padding: 1em;
+  margin: 0px;
+}
+.ref_complementaresheader + p {
+  margin-top: 2em ;
+}
+
+.ref_complementares .ti_intro {
+  background: #6c4e69;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1em;
+  margin: -45px 0 2em 30px;
+  padding: 8px 16px;
+  text-align: center;
+  width: 240px;
+  text-transform: uppercase;
+}
+
+.ref_complementares .pagmp {
+    border-radius: 5px;
+    background: #6c4e69;
+    color: #fff;
+    left: 0;
+    font-family: 'Jellee Bold', sans-serif;
+    position: relative;
+    page-break-before: always;
+    padding: 8px;
+    min-width: 40px;
+    text-align: center;
+    text-indent: 0;
+    width: max-content;
+    margin: 0px;
+  }
+
+.box_refenciacom .box_roxo1 ul li {
+  list-style: url(../images/seta_laranja.svg);
+  margin: 0 0 0 8px;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  p {
+    max-width: 100%;
+    word-break: break-word;
+    hyphens: none;
+  }
+  .main {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .manu_geral {
+    box-sizing: border-box;
+  }
+
+  .tb_mg tr,
+  .tb_mg th {
+    display: block;
+    width: 100%;
+  }
+
+  .tb_mg tr td {
+    display: block;
+    width: 100%;
+  }
+
+  .semana1,
+  .semana2,
+  .trimestre,
+  .bimestre,
+  .aula1,
+  .aula2 {
+    writing-mode: horizontal-tb;
+  }
+
+  .manu_geral ol,
+  .manu_geral ul {
+    max-width: 100%;
+  }
+
+  .manu_t2,
+  .manu_t3,
+  .manu_t4 {
+    max-width: 100%;
+  }
+
+  .box_roteiro h4 { max-width: 100%;}
+  .box_verde {
+    max-width: 100% !important;
+  }
+
+  .pagintruducao, .pagconclusao, .box_tipoatividade_mp {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: auto;
+  }
+
+
+
+  
+}
