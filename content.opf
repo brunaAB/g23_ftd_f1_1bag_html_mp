@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xml:lang="pt-br" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier scheme="ISBN">9786557427781 </dc:identifier>
+    <dc:creator opf:role="aut" opf:file-as="PNLD, Autor">Bruna Migotto Barbieri Estruzani;</dc:creator>
+    <dc:title>Bons amigos : geografia : 1º ano : ensino fundamental : anos iniciais - Manual do Professor </dc:title>
+    <dc:publisher>FTD Educação</dc:publisher>
+    <dc:subject>geografia</dc:subject>
+    <dc:format>Livro Digital</dc:format>
+    <dc:language>pt-BR</dc:language>
+    <dc:date event="creation">2021-09-22</dc:date>
+    <dc:description>Bons amigos : geografia : 1º ano : ensino fundamental : anos iniciais - Manual do Professor</dc:description>
+    <dc:rights>Copyright © FTD Educação, 2021</dc:rights>
+    <dc:identifier id="BookId" scheme="UUID"></dc:identifier>
+    <meta name="cover" content="cover.jpg"/>
+      <x-metadata>
+        <EmbeddedCover>cover.jpg</EmbeddedCover>
+      </x-metadata>
+    <meta property="schema:accessibilitySummary" xml:lang="pt-br">Esta publicação está em conformidade com a especificação de acessibilidade em WCAG 2.0 Level AA</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessibilityFeature">MathML</meta>
+    <meta property="schema:accessibilityFeature">describedMath</meta>
+    <meta property="schema:accessibilityFeature">captions</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">longDescription</meta>
+    <meta property="schema:accessibilityFeature">pageNavigation</meta>
+    <meta property="schema:accessibilityFeature">printPageNumbers</meta>
+    <meta property="schema:accessibilityFeature">readingOrder</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityFeature">ttsMarkup</meta>
+    <meta property="schema:accessibilityAPI">ARIA</meta>
+    <meta property="schema:accessibilityHazard">noFlashingHazard</meta>
+    <meta property="schema:accessibilityHazard">noSoundHazard</meta>
+    <meta property="schema:accessibilityHazard">noMotionSimulationHazard</meta>
+    <meta content="1.7.0" name="Sigil version"/>
+    <meta property="dcterms:modified">2021-09-22T15:34:13Z</meta>
+  </metadata>
+  <manifest>
+  <!-- Navegação -->
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="index.xhtml" href="index.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+
+  <!-- PÁGINAS DO LIVRO UNIDADES -->   
+    <!--  <item id="" href="" media-type=""/> --> 
+    <!-- Arquivos inicias -->  
+    <item id="manualgeral_prof.xhtml" href="content/manualgeral_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="paginasinicias_prof.xhtml" href="content/paginasinicias_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="vamosiniciar.xhtml" href="content/vamosiniciar.xhtml" media-type="application/xhtml+xml"/>
+    <item id="tiposatividades_prof.xhtml" href="content/tiposatividades_prof.xhtml" media-type="application/xhtml+xml"/>
+
+    <!-- Arquivos Intrdução / Unidade / Conclusão -->  
+    <item id="un1introducao_prof.xhtml" href="content/un1introducao_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="unidade01.xhtml" href="content/unidade01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="un1conclusao_prof.xhtml" href="content/un1conclusao_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="un2introducao_prof.xhtml" href="content/un2introducao_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="unidade02.xhtml" href="content/unidade02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="un2conclusao_prof.xhtml" href="content/un2conclusao_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="un3introducao_prof.xhtml" href="content/un3introducao_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="unidade03.xhtml" href="content/unidade03.xhtml" media-type="application/xhtml+xml"/>    
+    <item id="un3conclusao_prof.xhtml" href="content/un3conclusao_prof.xhtml" media-type="application/xhtml+xml"/>
+    
+    <item id="un4introducao_prof.xhtml" href="content/un4introducao_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="unidade04.xhtml" href="content/unidade04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="un4conclusao_prof.xhtml" href="content/un4conclusao_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="un5introducao_prof.xhtml" href="content/un5introducao_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="unidade05.xhtml" href="content/unidade05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="un5conclusao_prof.xhtml" href="content/un5conclusao_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="un6introducao_prof.xhtml" href="content/un6introducao_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="unidade06.xhtml" href="content/unidade06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="un6conclusao_prof.xhtml" href="content/un6conclusao_prof.xhtml" media-type="application/xhtml+xml"/>
+
+
+    <!-- Arquivos Finais -->  
+    
+    <item id="vamosavaliar1.xhtml" href="content/vamosavaliar1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="vamosavaliar2.xhtml" href="content/vamosavaliar2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="vamosavaliar3.xhtml" href="content/vamosavaliar3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="vamosavaliar4.xhtml" href="content/vamosavaliar4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="vamosavaliar5.xhtml" href="content/vamosavaliar5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="vamosavaliar6.xhtml" href="content/vamosavaliar6.xhtml" media-type="application/xhtml+xml"/>
+    
+    <item id="bncc_prof.xhtml" href="content/bncc_prof.xhtml" media-type="application/xhtml+xml"/>
+    <item id="vamosconcluir.xhtml" href="content/vamosconcluir.xhtml" media-type="application/xhtml+xml"/>
+    <item id="saibamais.xhtml" href="content/saibamais.xhtml" media-type="application/xhtml+xml"/>
+    <item id="referencias.xhtml" href="content/referencias.xhtml" media-type="application/xhtml+xml"/>
+    <item id="credito-imagem.xhtml" href="content/credito-imagem.xhtml" media-type="application/xhtml+xml"/>
+    <item id="urlsencurtadas.xhtml" href="content/urlsencurtadas.xhtml" media-type="application/xhtml+xml"/>
+
+    <!-- CSS -->
+    <item id="stylo_lt.css" href="resources/styles/stylo_ba.css" media-type="text/css"/>
+    <item id="reset.css" href="resources/styles/reset.css" media-type="text/css"/>
+    <item id="modelo_mp.css" href="resources/styles/modelo_mp.css" media-type="text/css"/>
+
+  <!-- SCRIPTS -->
+    <!--<item id="" href="resources/scripts/" media-type="text/js"/> -->
+
+  <!-- FONTES -->
+    <item id="Jellee-Bold.woff2" href="resources/fonts/Jellee-Bold.woff2" media-type="fonts"/>
+    <item id="Jellee-Bold.woff" href="resources/fonts/Jellee-Bold.woff" media-type="fonts"/>
+    <item id="Jellee-Bold.otf" href="resources/fonts/Jellee-Bold.otf" media-type="fonts"/>
+    <item id="damase_v2.woff2" href="resources/fonts/damase_v2.woff2" media-type="fonts"/>
+    <item id="damase_v2.woff" href="resources/fonts/damase_v2.woff" media-type="fonts"/>
+    <item id="damase_v2.otf" href="resources/fonts/damase_v2.otf" media-type="fonts"/>
+    <item id="Arial.woff2" href="resources/fonts/Arial.woff2" media-type="fonts"/>
+    <item id="Arial.woff" href="resources/fonts/Arial.woff" media-type="fonts"/>
+    <item id="Arial.otf" href="resources/fonts/Arial.otf" media-type="fonts"/>
+    <item id="Arial.ttf" href="resources/fonts/Arial.ttf" media-type="fonts"/>
+
+
+    <!-- MODELO DE IMAGENS
+    <item id="" href="resources/images/un1/" media-type="image/png"/>
+    <item id="" href="resources/images/un1/" media-type="image/jpg"/>
+    <item id="" href="resources/images/un1/" media-type="image/svg+xml"/>
+    -->
+    <!-- IMAGENS / ICONES CSS -->
+<item id="bg_ref_complementares.svg" href="images/bg_ref_complementares.svg" media-type="image/svg+xml"/>
+<item id="bg_titulo.svg" href="images/bg_titulo.svg" media-type="image/svg+xml"/>
+<item id="bg_material.png" href="images/bg_material.png" media-type="image/png"/>
+<item id="bg_remissivo_azul.svg" href="images/bg_remissivo_azul.svg" media-type="image/svg+xml"/>
+<item id="balao_pensardireita.svg" href="images/balao_pensardireita.svg" media-type="image/svg+xml"/>
+<item id="ico_tec_azul.svg" href="images/ico_tec_azul.svg" media-type="image/svg+xml"/>
+<item id="reset.css" href="reset.css" media-type="text/css"/>
+<item id="seta_verde.svg" href="images/seta_verde.svg" media-type="image/svg+xml"/>
+<item id="bg_tema_geo.svg" href="images/bg_tema_geo.svg" media-type="image/svg+xml"/>
+<item id="ico_ti3_geo.svg" href="images/ico_ti3_geo.svg" media-type="image/svg+xml"/>
+<item id="ba_material.svg" href="images/ba_material.svg" media-type="image/svg+xml"/>
+<item id="bollet_roxo.svg" href="images/bollet_roxo.svg" media-type="image/svg+xml"/>
+<item id="ba_fala_artista.svg" href="images/ba_fala_artista.svg" media-type="image/svg+xml"/>
+<item id="bg_remissivo_rosa.svg" href="images/bg_remissivo_rosa.svg" media-type="image/svg+xml"/>
+<item id="bg_explorar@2x.png" href="images/bg_explorar@2x.png" media-type="image/png"/>
+<item id="bollet_azul.svg" href="images/bollet_azul.svg" media-type="image/svg+xml"/>
+<item id="bg_tema_mat.svg" href="images/bg_tema_mat.svg" media-type="image/svg+xml"/>
+<item id="bollet_turquesa.svg" href="images/bollet_turquesa.svg" media-type="image/svg+xml"/>
+<item id="bollet_rosa.svg" href="images/bollet_rosa.svg" media-type="image/svg+xml"/>
+<item id="ico_legenda.png" href="images/ico_legenda.png" media-type="image/png"/>
+<item id="bollet_laranja.svg" href="images/bollet_laranja.svg" media-type="image/svg+xml"/>
+<item id="ba_fundo_jornal_grande.jpg" href="images/ba_fundo_jornal_grande.jpg" media-type="image/jpg"/>
+<item id="bg_vivaarte.svg" href="images/bg_vivaarte.svg" media-type="image/svg+xml"/>
+<item id="bg_regra.svg" href="images/bg_regra.svg" media-type="image/svg+xml"/>
+<item id="bg_let_vamos_investigar.svg" href="images/bg_let_vamos_investigar.svg" media-type="image/svg+xml"/>
+<item id="bg_materiais_necessario.svg" href="images/bg_materiais_necessario.svg" media-type="image/svg+xml"/>
+<item id="bg_remissivo_prof.svg" href="images/bg_remissivo_prof.svg" media-type="image/svg+xml"/>
+<item id="bg_ref_comentadas.svg" href="images/bg_ref_comentadas.svg" media-type="image/svg+xml"/>
+<item id="ba_vamos_avaliar.svg" href="images/ba_vamos_avaliar.svg" media-type="image/svg+xml"/>
+<item id="ico_divirtase.jpg" href="images/ico_divirtase.jpg" media-type="image/jpg"/>
+<item id="ba_estudo_da_lingua.svg" href="images/ba_estudo_da_lingua.svg" media-type="image/svg+xml"/>
+<item id="bg_unidade_geo.svg" href="images/bg_unidade_geo.svg" media-type="image/svg+xml"/>
+<item id="bg_tisecao.svg" href="images/bg_tisecao.svg" media-type="image/svg+xml"/>
+<item id="ba_atividades.svg" href="images/ba_atividades.svg" media-type="image/svg+xml"/>
+<item id="ico_item_sumario.jpg" href="images/ico_item_sumario.jpg" media-type="image/jpg"/>
+<item id="bg_ti_entre_ace.svg" href="images/bg_ti_entre_ace.svg" media-type="image/svg+xml"/>
+<item id="ba_nova_leitura.svg" href="images/ba_nova_leitura.svg" media-type="image/svg+xml"/>
+<item id="ba_vamos_investigar.svg" href="images/ba_vamos_investigar.svg" media-type="image/svg+xml"/>
+<item id="seta_laranja.svg" href="images/seta_laranja.svg" media-type="image/svg+xml"/>
+<item id="ico_legenda@2x.png" href="images/ico_legenda@2x.png" media-type="image/png"/>
+<item id="bg_remissivo_geo.svg" href="images/bg_remissivo_geo.svg" media-type="image/svg+xml"/>
+<item id="bg_remissivo_vermelho.svg" href="images/bg_remissivo_vermelho.svg" media-type="image/svg+xml"/>
+<item id="bg_vamos_avaliar_geo.svg" href="images/bg_vamos_avaliar_geo.svg" media-type="image/svg+xml"/>
+<item id="ba_inicio_de_conversa.svg" href="images/ba_inicio_de_conversa.svg" media-type="image/svg+xml"/>
+<item id="ba_hachura3.jpg" href="images/ba_hachura3.jpg" media-type="image/jpg"/>
+<item id="ba_estudo_do_texto.png" href="images/ba_estudo_do_texto.png" media-type="image/png"/>
+<item id="bg_remissivo_roxo.svg" href="images/bg_remissivo_roxo.svg" media-type="image/svg+xml"/>
+<item id="ba_artista_destaque.svg" href="images/ba_artista_destaque.svg" media-type="image/svg+xml"/>
+<item id="ba_leitura.svg" href="images/ba_leitura.svg" media-type="image/svg+xml"/>
+<item id="bg_textoa.svg" href="images/bg_textoa.svg" media-type="image/svg+xml"/>
+<item id="bg_introducao.svg" href="images/bg_introducao.svg" media-type="image/svg+xml"/>
+<item id="ba_divirtase.svg" href="images/ba_divirtase.svg" media-type="image/svg+xml"/>
+<item id="vamos_iniciar_geo.svg" href="images/vamos_iniciar_geo.svg" media-type="image/svg+xml"/>
+<item id="bollet_preto.svg" href="images/bollet_preto.svg" media-type="image/svg+xml"/>
+<item id="bg_let_avaliar_art.svg" href="images/bg_let_avaliar_art.svg" media-type="image/svg+xml"/>
+<item id="bg_num_geo.svg" href="images/bg_num_geo.svg" media-type="image/svg+xml"/>
+<item id="caderno_semlinha.svg" href="images/caderno_semlinha.svg" media-type="image/svg+xml"/>
+<item id="bg_vamos_a.png" href="images/bg_vamos_a.png" media-type="image/png"/>
+<item id="bollet_verde.svg" href="images/bollet_verde.svg" media-type="image/svg+xml"/>
+<item id="20.jpg" href="images/20.jpg" media-type="image/jpg"/>
+<item id="bg_saibamais2.svg" href="images/bg_saibamais2.svg" media-type="image/svg+xml"/>
+<item id="bg_coletivamente.svg" href="images/bg_coletivamente.svg" media-type="image/svg+xml"/>
+<item id="bg_divirtase.svg" href="images/bg_divirtase.svg" media-type="image/svg+xml"/>
+<item id="bg_remissivo_amarelo.svg" href="images/bg_remissivo_amarelo.svg" media-type="image/svg+xml"/>
+<item id="bg_tiposatividades.svg" href="images/bg_tiposatividades.svg" media-type="image/svg+xml"/>
+<item id="ico_inv_turquesa.svg" href="images/ico_inv_turquesa.svg" media-type="image/svg+xml"/>
+<item id="bg_remissivo_verde.svg" href="images/bg_remissivo_verde.svg" media-type="image/svg+xml"/>
+<item id="bg_referencias.svg" href="images/bg_referencias.svg" media-type="image/svg+xml"/>
+<item id="balao_pensaresqueda.svg" href="images/balao_pensaresqueda.svg" media-type="image/svg+xml"/>
+<item id="balao_direita.svg" href="images/balao_direita.svg" media-type="image/svg+xml"/>
+<item id="glossario.svg" href="images/glossario.svg" media-type="image/svg+xml"/>
+<item id="ba_coletivamente.svg" href="images/ba_coletivamente.svg" media-type="image/svg+xml"/>
+<item id="bg_let_coletivamente.svg" href="images/bg_let_coletivamente.svg" media-type="image/svg+xml"/>
+<item id="bg_vamos_a@2x.png" href="images/bg_vamos_a@2x.png" media-type="image/png"/>
+<item id="bg_remissivo_turquesa.svg" href="images/bg_remissivo_turquesa.svg" media-type="image/svg+xml"/>
+<item id="bg_material_complementar.svg" href="images/bg_material_complementar.svg" media-type="image/svg+xml"/>
+<item id="bg_conclusao.svg" href="images/bg_conclusao.svg" media-type="image/svg+xml"/>
+<item id="bg_saiba_a.png" href="images/bg_saiba_a.png" media-type="image/png"/>
+<item id="bg_entre_texto_ace.svg" href="images/bg_entre_texto_ace.svg" media-type="image/svg+xml"/>
+<item id="bg_venha_conhecer.svg" href="images/bg_venha_conhecer.svg" media-type="image/svg+xml"/>
+<item id="bg_remissivo_laranja.svg" href="images/bg_remissivo_laranja.svg" media-type="image/svg+xml"/>
+<item id="bg_let_por.svg" href="images/bg_let_por.svg" media-type="image/svg+xml"/>
+<item id="bg_bncc.svg" href="images/bg_bncc.svg" media-type="image/svg+xml"/>
+<item id="seta_orienta.svg" href="images/seta_orienta.svg" media-type="image/svg+xml"/>
+<item id="ba_producao_de_texto.svg" href="images/ba_producao_de_texto.svg" media-type="image/svg+xml"/>
+<item id="bg_saibamais.svg" href="images/bg_saibamais.svg" media-type="image/svg+xml"/>
+<item id="bg_tema_arte.svg" href="images/bg_tema_arte.svg" media-type="image/svg+xml"/>
+<item id="balao_esquerda.svg" href="images/balao_esquerda.svg" media-type="image/svg+xml"/>
+<item id="bg_num_coletivamente.svg" href="images/bg_num_coletivamente.svg" media-type="image/svg+xml"/>
+
+
+    <!-- IMAGENS NO XHTML -->
+<item id="f1221_1bag_g23_ftd.png" href="resources/images/un6/f1221_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0432ib_1bag_g23_ftd.png" href="resources/images/un2/i0432ib_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1038_1bag_g23_ftd.png" href="resources/images/un5/f1038_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1237rm_1bag_g23_ftd.png" href="resources/images/un6/1237rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0213_1bag_g23_ftd.png" href="resources/images/un1/f0213_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1026_1bag_g23_ftd.png" href="resources/images/un5/f1026_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0437_1bag_g23_ftd.png" href="resources/images/un2/f0437_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0810_1bag_g23_ftd.png" href="resources/images/un4/f0810_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0841_1bag_g23_ftd.png" href="resources/images/un4/f0841_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1236rm_1bag_g23_ftd.png" href="resources/images/un6/1236rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0423_1bag_g23_ftd.png" href="resources/images/un2/f0423_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0803_1bag_g23_ftd.png" href="resources/images/un4/f0803_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0616_1bag_g23_ftd.png" href="resources/images/un3/f0616_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0820dn_1bag_g23_ftd.png" href="resources/images/un4/i0820dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="ba_resposta_oral.png" href="resources/images/ba_resposta_oral.png" media-type="image/png"/>
+<item id="i1007kt_1bag_g23_ftd.png" href="resources/images/un5/i1007kt_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1249mq_1bag_g23_ftd_5.png" href="resources/images/un6/i1249mq_1bag_g23_ftd_5.png" media-type="image/png"/>
+<item id="fa0801_1bag_g23_ftd.png" href="resources/images/un4/fa0801_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0203rm_1bag_g23_ftd.png" href="resources/images/un1/i0203rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0827dn_1bag_g23_ftd.png" href="resources/images/un4/i0827dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0606cq_1bag_g23_ftd_ly.png" href="resources/images/un3/i0606cq_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="1bag_lt_p079_01_img.png" href="resources/images/un5/1bag_lt_p079_01_img.png" media-type="image/png"/>
+<item id="i1205cx_1bag_g23_ftd_ly.png" href="resources/images/un6/i1205cx_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="i0824dn_1bag_g23_ftd.png" href="resources/images/un4/i0824dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0821dn_1bag_g23_ftd.png" href="resources/images/un4/i0821dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0217_1bag_g23_ftd.png" href="resources/images/un1/f0217_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0847_1bag_g23_ftd.png" href="resources/images/un4/f0847_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1220cd_1bag_g23_ftd.png" href="resources/images/un6/i1220cd_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0825dn_1bag_g23_ftd.png" href="resources/images/un4/i0825dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1004rm_1bag_g23_ftd.png" href="resources/images/un5/i1004rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1014_1bag_g23_ftd.png" href="resources/images/un5/f1014_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0229kt_1bag_g23_ftd_sub.png" href="resources/images/un1/i0229kt_1bag_g23_ftd_sub.png" media-type="image/png"/>
+<item id="fa0201_1bag_g23_ftd.png" href="resources/images/un1/fa0201_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1013_1bag_g23_ftd.png" href="resources/images/un5/f1013_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0830_1bag_g23_ftd.png" href="resources/images/un4/f0830_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="fa0446_1bag_g23_ftd.png" href="resources/images/un2/fa0446_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1207hk_1bag_g23_ftd.png" href="resources/images/un6/i1207hk_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0218_1bag_g23_ftd.png" href="resources/images/un1/f0218_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1202cx_1bag_g23_ftd_ly.png" href="resources/images/un6/i1202cx_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="f1217_1bag_g23_ftd.png" href="resources/images/un6/f1217_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0435_1bag_g23_ftd.png" href="resources/images/un2/f0435_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1228_1bag_g23_ftd.png" href="resources/images/un6/f1228_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1036_1bag_g23_ftd.png" href="resources/images/un5/f1036_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0445ib_1bag_g23_ftd.png" href="resources/images/un2/i0445ib_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1bag_lt_p078_02_img.png" href="resources/images/un5/1bag_lt_p078_02_img.png" media-type="image/png"/>
+<item id="i0411km_1bag_g23_ftd.png" href="resources/images/un2/i0411km_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1212_1bag_g23_ftd.png" href="resources/images/un6/f1212_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0839_1bag_g23_ftd.png" href="resources/images/un4/f0839_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="ficha.jpg" href="resources/images/ficha.jpg" media-type="image/jpg"/>
+<item id="i0246rm_1bag_g23_ftd.jpg" href="resources/images/vamos/i0246rm_1bag_g23_ftd.jpg" media-type="image/jpg"/>
+<item id="f0415_1bag_g23_ftd.png" href="resources/images/un2/f0415_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1018rm_1bag_g23_ftd_sub.png" href="resources/images/un5/i1018rm_1bag_g23_ftd_sub.png" media-type="image/png"/>
+<item id="1bag_lt_p019_02_img.png" href="resources/images/un1/1bag_lt_p019_02_img.png" media-type="image/png"/>
+<item id="f1252_1bag_g23_ftd.png" href="resources/images/saiba/f1252_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="ftd_educacao.png" href="resources/images/ftd_educacao.png" media-type="image/png"/>
+<item id="f0417_1bag_g23_ftd.png" href="resources/images/un2/f0417_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="fa1201_1bag_g23_ftd_LOcopy3.png" href="resources/images/un6/fa1201_1bag_g23_ftd_LOcopy3.png" media-type="image/png"/>
+<item id="i1249mq_1bag_g23_ftd_2.png" href="resources/images/un6/i1249mq_1bag_g23_ftd_2.png" media-type="image/png"/>
+<item id="f0619_1bag_g23_ftd.png" href="resources/images/un3/f0619_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0829_1bag_g23_ftd.png" href="resources/images/un4/f0829_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="espaco_resposta_longa.svg" href="resources/images/espaco_resposta_longa.svg" media-type="image/svg+xml"/>
+<item id="i0809dn_1bag_g23_ftd.png" href="resources/images/un4/i0809dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1006rm_1bag_g23_ftd.png" href="resources/images/un5/i1006rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="fa1201_1bag_g23_ftd_LOcopy5.png" href="resources/images/un6/fa1201_1bag_g23_ftd_LOcopy5.png" media-type="image/png"/>
+<item id="i0223Brm_1bag_g23_ftd.png" href="resources/images/un1/i0223Brm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0448ct_1bag_g23_ftd.png" href="resources/images/un2/i0448ct_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="ba_cartografia.png" href="resources/images/ba_cartografia.png" media-type="image/png"/>
+<item id="i0808dn_1bag_g23_ftd.png" href="resources/images/un4/i0808dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0610cq_1bag_g23_ftd_ly.png" href="resources/images/un3/i0610cq_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="i1249mq_1bag_g23_ftd_1.png" href="resources/images/un6/i1249mq_1bag_g23_ftd_1.png" media-type="image/png"/>
+<item id="i1245rm_1bag_g23_ftd.png" href="resources/images/vamos/i1245rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0612_1bag_g23_ftd.png" href="resources/images/un3/f0612_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0247rm_1bag_g23_ftd.jpg" href="resources/images/vamos/i0247rm_1bag_g23_ftd.jpg" media-type="image/jpg"/>
+<item id="f0421_1bag_g23_ftd.png" href="resources/images/un2/f0421_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0212_1bag_g23_ftd.png" href="resources/images/un1/f0212_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1009kt_1bag_g23_ftd.png" href="resources/images/un5/i1009kt_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1214_1bag_g23_ftd.png" href="resources/images/un6/f1214_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0236dn_1bag_g23_ftd.png" href="resources/images/un1/i0236dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1bag_lt_p019_01_img.png" href="resources/images/un1/1bag_lt_p019_01_img.png" media-type="image/png"/>
+<item id="f1040_1bag_g23_ftd.png" href="resources/images/un5/f1040_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1bag_lt_p078_03_img.png" href="resources/images/un5/1bag_lt_p078_03_img.png" media-type="image/png"/>
+<item id="f0416_1bag_g23_ftd.png" href="resources/images/un2/f0416_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0805_1bag_g23_ftd.png" href="resources/images/un4/f0805_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0244_1bag_g23_ftd.png" href="resources/images/vamos/f0244_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0845ly_1bag_g23_ftd_ly.png" href="resources/images/un4/i0845ly_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="f0436_1bag_g23_ftd.png" href="resources/images/un2/f0436_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0239dn_1bag_g23_ftd.png" href="resources/images/un1/i0239dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0846kb_1bag_g23_ftd_ly.png" href="resources/images/un5/i0846kb_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="i0832dn_1bag_g23_ftd.png" href="resources/images/un4/i0832dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0836dn_1bag_g23_ftd.png" href="resources/images/un4/i0836dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0427ib_1bag_g23_ftd_ef.png" href="resources/images/un2/i0427ib_1bag_g23_ftd_ef.png" media-type="image/png"/>
+<item id="i0235dn_1bag_g23_ftd.png" href="resources/images/un1/i0235dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="frontis_aluno_prof.jpg" href="resources/images/frontis_aluno_prof.jpg" media-type="image/jpg"/>
+<item id="i0407cf_1bag_g23_ftd_a.png" href="resources/images/un2/i0407cf_1bag_g23_ftd_a.png" media-type="image/png"/>
+<item id="i0221rm_1bag_g23_ftd.png" href="resources/images/un1/i0221rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1025_1bag_g23_ftd.png" href="resources/images/un5/f1025_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0833dn_1bag_g23_ftd.png" href="resources/images/un4/i0833dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1039_1bag_g23_ftd.png" href="resources/images/un5/f1039_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0614_1bag_g23_ftd.png" href="resources/images/un3/f0614_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="fa1201_1bag_g23_ftd_LOcopy4.png" href="resources/images/un6/fa1201_1bag_g23_ftd_LOcopy4.png" media-type="image/png"/>
+<item id="i1247rm_1bag_g23_ftd.png" href="resources/images/vamos/i1247rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0611_1bag_g23_ftd.png" href="resources/images/un3/f0611_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0403kt_1bag_g23_ftd_ly.png" href="resources/images/un2/i0403kt_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="i0842md_1bag_g23_ftd_sub.png" href="resources/images/un4/i0842md_1bag_g23_ftd_sub.png" media-type="image/png"/>
+<item id="i0826dn_1bag_g23_ftd.png" href="resources/images/un4/i0826dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1253c_1bag_g23_ftd.png" href="resources/images/vamos/f1253c_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0622dn_1bag_g23_ftd.png" href="resources/images/un3/i0622dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1019_1bag_g23_ftd.png" href="resources/images/un5/f1019_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1010_1bag_g23_ftd.png" href="resources/images/un5/f1010_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0443ib_1bag_g23_ftd.png" href="resources/images/un2/i0443ib_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0813dn_1bag_g23_ftd.png" href="resources/images/un4/i0813dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0818md_1bag_g23_ftd.png" href="resources/images/un4/i0818md_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1bag_lt_p079_02_img.png" href="resources/images/un5/1bag_lt_p079_02_img.png" media-type="image/png"/>
+<item id="i0409km_1bag_g23_ftd.png" href="resources/images/un2/i0409km_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0828dn_1bag_g23_ftd.png" href="resources/images/un4/i0828dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0440ib_1bag_g23_ftd.png" href="resources/images/un2/i0440ib_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1bag_lt_p051_01_img_sub.png" href="resources/images/un3/1bag_lt_p051_01_img_sub.png" media-type="image/png"/>
+<item id="i0404kt_1bag_g23_ftd_ly.png" href="resources/images/un2/i0404kt_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="1bag_lt_p050_03_img.png" href="resources/images/un3/1bag_lt_p050_03_img.png" media-type="image/png"/>
+<item id="i0402kt_1bag_g23_ftd_ly.png" href="resources/images/un2/i0402kt_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="f0621_1bag_g23_ftd.png" href="resources/images/un3/f0621_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0804_1bag_g23_ftd.png" href="resources/images/un4/f0804_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0615_1bag_g23_ftd.png" href="resources/images/un3/f0615_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="ba_caderno.png" href="resources/images/ba_caderno.png" media-type="image/png"/>
+<item id="f0425_1bag_g23_ftd.png" href="resources/images/un2/f0425_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1012_1bag_g23_ftd.png" href="resources/images/un5/f1012_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0441ib_1bag_g23_ftd.png" href="resources/images/un2/i0441ib_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0831_1bag_g23_ftd.png" href="resources/images/un4/f0831_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1216_1bag_g23_ftd.png" href="resources/images/un6/f1216_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="fa0601_1bag_g23_ftd_U3.png" href="resources/images/un3/fa0601_1bag_g23_ftd_U3.png" media-type="image/png"/>
+<item id="i0202rt_1bag_g23_ftd.png" href="resources/images/un1/i0202rt_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0420_1bag_g23_ftd.png" href="resources/images/un2/f0420_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1232_1bag_g23_ftd.png" href="resources/images/un6/f1232_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0618_1bag_g23_ftd.png" href="resources/images/un3/f0618_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0444ib_1bag_g23_ftd.png" href="resources/images/un2/i0444ib_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1027_1bag_g23_ftd.png" href="resources/images/un5/f1027_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="frontis.jpg" href="resources/images/frontis.jpg" media-type="image/jpg"/>
+<item id="f1253d_1bag_g23_ftd.png" href="resources/images/vamos/f1253d_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="fa1001_1bag_g23_ftd_LOcopy1.png" href="resources/images/un5/fa1001_1bag_g23_ftd_LOcopy1.png" media-type="image/png"/>
+<item id="i0609cq_1bag_g23_ftd_ly.png" href="resources/images/un3/i0609cq_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="f1210_1bag_g23_ftd.png" href="resources/images/un6/f1210_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1024_1bag_g23_ftd.png" href="resources/images/un5/f1024_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0447_1bag_g23_ftd.png" href="resources/images/un2/f0447_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1209_1bag_g23_ftd.png" href="resources/images/un6/f1209_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1206hk_1bag_g23_ftd.png" href="resources/images/un6/i1206hk_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0240dn_1bag_g23_ftd.png" href="resources/images/un1/i0240dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0210cq_1bag_g23_ftd.png" href="resources/images/un1/i0210cq_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0823dn_1bag_g23_ftd.png" href="resources/images/un4/i0823dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0243_1bag_g23_ftd.png" href="resources/images/vamos/f0243_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1042_1bag_g23_ftd.png" href="resources/images/un5/f1042_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0405kt_1bag_g23_ftd_ly.png" href="resources/images/un2/i0405kt_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="f1043_1bag_g23_ftd.png" href="resources/images/un5/f1043_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0205dn_1bag_g23_ftd.png" href="resources/images/un1/i0205dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0840_1bag_g23_ftd.png" href="resources/images/un4/f0840_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0802_1bag_g23_ftd.png" href="resources/images/un4/f0802_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0442ib_1bag_g23_ftd.png" href="resources/images/un2/i0442ib_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1251_1bag_g23_ftd.png" href="resources/images/saiba/f1251_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0216_1bag_g23_ftd.png" href="resources/images/un1/f0216_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0227rm_1bag_g23_ftd.png" href="resources/images/un1/i0227rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0410km_1bag_g23_ftd.png" href="resources/images/un2/i0410km_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="verde.svg" href="resources/images/verde.svg" media-type="image/svg+xml"/>
+<item id="1bag_lt_p050_01_img.png" href="resources/images/un3/1bag_lt_p050_01_img.png" media-type="image/png"/>
+<item id="i1203cx_1bag_g23_ftd_ly.png" href="resources/images/un6/i1203cx_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="f1218_1bag_g23_ftd.png" href="resources/images/un6/f1218_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="azul.svg" href="resources/images/azul.svg" media-type="image/svg+xml"/>
+<item id="espaco_resposta_curta.svg" href="resources/images/espaco_resposta_curta.svg" media-type="image/svg+xml"/>
+<item id="i0422ib_1bag_g23_ftd.png" href="resources/images/un2/i0422ib_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1023_1bag_g23_ftd.png" href="resources/images/un5/f1023_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1253_1bag_g23_ftd.png" href="resources/images/vamos/f1253_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0228_1bag_g23_ftd.png" href="resources/images/un1/f0228_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0812_1bag_g23_ftd.png" href="resources/images/un4/f0812_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0430ib_1bag_g23_ftd.png" href="resources/images/un2/i0430ib_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0219_1bag_g23_ftd.png" href="resources/images/un1/f0219_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1248rm_1bag_g23_ftd.png" href="resources/images/vamos/i1248rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0245_1bag_g23_ftd.png" href="resources/images/vamos/f0245_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="amarelo.svg" href="resources/images/amarelo.svg" media-type="image/svg+xml"/>
+<item id="i0623dn_1bag_g23_ftd.png" href="resources/images/un3/i0623dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0413km_1bag_g23_ftd.png" href="resources/images/un2/i0413km_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1008kt_1bag_g23_ftd.png" href="resources/images/un5/i1008kt_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1011_1bag_g23_ftd.png" href="resources/images/un5/f1011_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1249mq_1bag_g23_ftd_3.png" href="resources/images/un6/i1249mq_1bag_g23_ftd_3.png" media-type="image/png"/>
+<item id="i0605dn_1bag_g23_ftd_sub.png" href="resources/images/un3/i0605dn_1bag_g23_ftd_sub.png" media-type="image/png"/>
+<item id="f0816_1bag_g23_ftd.png" href="resources/images/un4/f0816_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1213_1bag_g23_ftd.png" href="resources/images/un6/f1213_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0431_1bag_g23_ftd.png" href="resources/images/un2/f0431_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1016dn_1bag_g23_ftd.png" href="resources/images/un5/i1016dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="0406kt_1bag_g23_ftd.png" href="resources/images/un2/0406kt_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0607cq_1bag_g23_ftd_ef_ly.png" href="resources/images/un3/i0607cq_1bag_g23_ftd_ef_ly.png" media-type="image/png"/>
+<item id="i0237dn_1bag_g23_ftd.png" href="resources/images/un1/i0237dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1041_1bag_g23_ftd.png" href="resources/images/un5/f1041_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1003rm_1bag_g23_ftd.png" href="resources/images/un5/i1003rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0211cq_1bag_g23_ftd.png" href="resources/images/un1/i0211cq_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="espaco_resposta_media.svg" href="resources/images/espaco_resposta_media.svg" media-type="image/svg+xml"/>
+<item id="f1020_1bag_g23_ftd.png" href="resources/images/un5/f1020_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1bag_lt_p072_02_img.png" href="resources/images/un4/1bag_lt_p072_02_img.png" media-type="image/png"/>
+<item id="f1037_1bag_g23_ftd.png" href="resources/images/un5/f1037_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1017dn_1bag_g23_ftd.png" href="resources/images/un5/i1017dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1235_1bag_g23_ftd.png" href="resources/images/un6/f1235_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0602_1bag_g23_ftd.png" href="resources/images/un3/f0602_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1bag_lt_p050_04_img.png" href="resources/images/un3/1bag_lt_p050_04_img.png" media-type="image/png"/>
+<item id="f0811_1bag_g23_ftd.png" href="resources/images/un4/f0811_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0225rm_1bag_g23_ftd.png" href="resources/images/un1/i0225rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="fa0201c_1bag_g23_ftd.png" href="resources/images/un1/fa0201c_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0224rm_1bag_g23_ftd.png" href="resources/images/un1/i0224rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1234_1bag_g23_ftd.png" href="resources/images/un6/f1234_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0222rm_1bag_g23_ftd.png" href="resources/images/un1/i0222rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0412km_1bag_g23_ftd.png" href="resources/images/un2/i0412km_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0834dn_1bag_g23_ftd.png" href="resources/images/un4/i0834dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0215_1bag_g23_ftd.png" href="resources/images/un1/f0215_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1204cx_1bag_g23_ftd_ly.png" href="resources/images/un6/i1204cx_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="i0439kt_1bag_g23_ftd.png" href="resources/images/un2/i0439kt_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1253e_1bag_g23_ftd.png" href="resources/images/vamos/f1253e_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0208_1bag_g23_ftd.png" href="resources/images/un1/f0208_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0207_1bag_g23_ftd.png" href="resources/images/un1/f0207_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1209_1bag_g23_ftd_p098.png" href="resources/images/un6/f1209_1bag_g23_ftd_p098.png" media-type="image/png"/>
+<item id="i0835dn_1bag_g23_ftd.png" href="resources/images/un4/i0835dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1233_1bag_g23_ftd.png" href="resources/images/un6/f1233_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0414km_1bag_g23_ftd.png" href="resources/images/un2/i0414km_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0617_1bag_g23_ftd.png" href="resources/images/un3/f0617_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0814_1bag_g23_ftd.png" href="resources/images/un4/f0814_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="fa0201b_1bag_g23_ftd.png" href="resources/images/un1/fa0201b_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="fa1201_1bag_g23_ftd_LOcopy2_sub.png" href="resources/images/un6/fa1201_1bag_g23_ftd_LOcopy2_sub.png" media-type="image/png"/>
+<item id="f0209_1bag_g23_ftd.png" href="resources/images/un1/f0209_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1bag_lt_p050_02_img.png" href="resources/images/un3/1bag_lt_p050_02_img.png" media-type="image/png"/>
+<item id="i0238dn_1bag_g23_ftd.png" href="resources/images/un1/i0238dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0817_1bag_g23_ftd.png" href="resources/images/un4/f0817_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0204dn_1bag_g23_ftd.png" href="resources/images/un1/i0204dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1219cd_1bag_g23_ftd.png" href="resources/images/un6/i1219cd_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0838_1bag_g23_ftd.png" href="resources/images/un4/f0838_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1239rm_1bag_g23_ftd.png" href="resources/images/un6/1239rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1215_1bag_g23_ftd.png" href="resources/images/un6/f1215_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1253b_1bag_g23_ftd.png" href="resources/images/vamos/f1253b_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="fa0201a_1bag_g23_ftd.png" href="resources/images/un1/fa0201a_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1238rm_1bag_g23_ftd.png" href="resources/images/un6/1238rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0433_1bag_g23_ftd.png" href="resources/images/un2/f0433_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1231_1bag_g23_ftd.png" href="resources/images/un6/f1231_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0206dn_1bag_g23_ftd.png" href="resources/images/un1/i0206dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0424_1bag_g23_ftd.png" href="resources/images/un2/f0424_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0806_1bag_g23_ftd.png" href="resources/images/un4/f0806_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1022_1bag_g23_ftd.png" href="resources/images/un5/f1022_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1254_1bag_g23_ftd.png" href="resources/images/saiba/f1254_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0604_1bag_g23_ftd.png" href="resources/images/un3/f0604_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1015dn_1bag_g23_ftd.png" href="resources/images/un5/i1015dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0428_1bag_g23_ftd.png" href="resources/images/un2/f0428_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0438_1bag_g23_ftd.png" href="resources/images/un2/f0438_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1250_1bag_g23_ftd.png" href="resources/images/saiba/f1250_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0608cq_1bag_g23_ftd_ly.png" href="resources/images/un3/i0608cq_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="f1255_1bag_g23_ftd.png" href="resources/images/saiba/f1255_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0407cf_1bag_g23_ftd_b.png" href="resources/images/un2/i0407cf_1bag_g23_ftd_b.png" media-type="image/png"/>
+<item id="i0822dn_1bag_g23_ftd.png" href="resources/images/un4/i0822dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0223rm_1bag_g23_ftd.png" href="resources/images/un1/i0223rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="vermelho.svg" href="resources/images/vermelho.svg" media-type="image/svg+xml"/>
+<item id="i0613cf_1bag_g23_ftd.png" href="resources/images/un3/i0613cf_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1229_1bag_g23_ftd.png" href="resources/images/un6/f1229_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0220rm_1bag_g23_ftd.png" href="resources/images/un1/i0220rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0419_1bag_g23_ftd.png" href="resources/images/un2/f0419_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="cover.jpg" href="cover.jpg" media-type="image/jpg"/>
+<item id="i0837dn_1bag_g23_ftd.png" href="resources/images/un4/i0837dn_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0248md_1bag_g23_ftd.png" href="resources/images/vamos/i0248md_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1208_1bag_g23_ftd.png" href="resources/images/un6/f1208_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1230_1bag_g23_ftd.png" href="resources/images/un6/f1230_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1246rm_1bag_g23_ftd.png" href="resources/images/vamos/i1246rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1028_1bag_g23_ftd.png" href="resources/images/un5/f1028_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1249mq_1bag_g23_ftd.png" href="resources/images/un6/i1249mq_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f1021_1bag_g23_ftd.png" href="resources/images/un5/f1021_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1bag_lt_p029_1_img.png" href="resources/images/un2/1bag_lt_p029_1_img.png" media-type="image/png"/>
+<item id="f0418_1bag_g23_ftd.png" href="resources/images/un2/f0418_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0807_1bag_g23_ftd.png" href="resources/images/un4/f0807_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0214_1bag_g23_ftd.png" href="resources/images/un1/f0214_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="f0603_1bag_g23_ftd.png" href="resources/images/un3/f0603_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1bag_lt_p072_01_img.png" href="resources/images/un4/1bag_lt_p072_01_img.png" media-type="image/png"/>
+<item id="f0620_1bag_g23_ftd.png" href="resources/images/un3/f0620_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1249mq_1bag_g23_ftd_ly.png" href="resources/images/un6/i1249mq_1bag_g23_ftd_ly.png" media-type="image/png"/>
+<item id="i0426ib_1bag_g23_ftd.png" href="resources/images/un2/i0426ib_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="1bag_lt_p078_01_img.png" href="resources/images/un5/1bag_lt_p078_01_img.png" media-type="image/png"/>
+<item id="f1029_1bag_g23_ftd.png" href="resources/images/un5/f1029_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i0819md_1bag_g23_ftd.png" href="resources/images/un4/i0819md_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1005rm_1bag_g23_ftd.png" href="resources/images/un5/i1005rm_1bag_g23_ftd.png" media-type="image/png"/>
+<item id="i1249mq_1bag_g23_ftd_4.png" href="resources/images/un6/i1249mq_1bag_g23_ftd_4.png" media-type="image/png"/>
+<item id="f0434_1bag_g23_ftd.png" href="resources/images/un2/f0434_1bag_g23_ftd.png" media-type="image/png"/>
+
+  </manifest>
+
+    <!-- estrutura -->
+  <spine toc="ncx">
+    <itemref idref="index.xhtml" linear="yes"/>
+    <itemref idref="manualgeral_prof.xhtml"/>
+    <itemref idref="paginasinicias_prof.xhtml"/>
+    <itemref idref="vamosiniciar.xhtml"/>
+    <itemref idref="tiposatividades_prof.xhtml"/>
+
+    <itemref idref="un1introducao_prof.xhtml"/>
+    <itemref idref="unidade01.xhtml"/>
+    <itemref idref="vamosavaliar1.xhtml"/>
+    <itemref idref="un1conclusao_prof.xhtml"/>
+    <itemref idref="un2introducao_prof.xhtml"/>
+    <itemref idref="unidade02.xhtml"/>
+    <itemref idref="vamosavaliar2.xhtml"/>
+    <itemref idref="un2conclusao_prof.xhtml"/>
+    <itemref idref="un3introducao_prof.xhtml"/>
+    <itemref idref="unidade03.xhtml"/>
+    <itemref idref="vamosavaliar3.xhtml"/>
+    <itemref idref="un3conclusao_prof.xhtml"/>
+    <itemref idref="un4introducao_prof.xhtml"/>
+    <itemref idref="unidade04.xhtml"/>
+    <itemref idref="vamosavaliar4.xhtml"/>
+    <itemref idref="un4conclusao_prof.xhtml"/>
+    <itemref idref="un5introducao_prof.xhtml"/>
+    <itemref idref="unidade05.xhtml"/>
+    <itemref idref="vamosavaliar5.xhtml"/>
+    <itemref idref="un5conclusao_prof.xhtml"/>
+    <itemref idref="un6introducao_prof.xhtml"/>
+    <itemref idref="unidade06.xhtml"/>
+    <itemref idref="vamosavaliar6.xhtml"/>
+    <itemref idref="un6conclusao_prof.xhtml"/>
+   
+    <itemref idref="bncc_prof.xhtml"/>
+    <itemref idref="vamosconcluir.xhtml"/>
+    <itemref idref="saibamais.xhtml"/>
+    <itemref idref="referencias.xhtml"/>
+    <itemref idref="credito-imagem.xhtml"/>
+    <itemref idref="urlsencurtadas.xhtml"/>
+  </spine>
+
+  <!-- Guia  -->
+  <guide>
+    <reference type="toc" title="Table of Contents" href="index.xhtml#toc"/>
+    <reference type="text" title="O Livro do estudante e o Manual do professor" href="content/manualgeral_prof.xhtml"/>
+    <reference type="text" title="Início da reprodução do Livro do estudante" href="content/paginasinicias_prof.xhtml"/>
+    <reference type="text" title="Vamos iniciar" href="content/vamosiniciar.xhtml"/>
+    <reference type="text" title="Como desenvolver alguns tipos de atividades" href="content/tiposatividades_prof.xhtml"/>
+
+    <reference type="text" title="Introdução Unidade 1" href="content/un1introducao_prof.xhtml"/>
+    <reference type="text" title="Unidade 1" href="content/unidade01.xhtml"/>
+    <reference type="text" title="Vamos Avaliar" href="content/vamosavaliar1.xhtml"/>
+    <reference type="text" title="Conclusão Unidade 1" href="content/un1conclusao_prof.xhtml"/>
+    <reference type="text" title="Introdução Unidade 2" href="content/un2introducao_prof.xhtml"/>
+    <reference type="text" title="Unidade 2" href="content/unidade02.xhtml"/>
+    <reference type="text" title="Vamos Avaliar" href="content/vamosavaliar2.xhtml"/>
+    <reference type="text" title="Conclusão Unidade 2" href="content/un2conclusao_prof.xhtml"/>
+    <reference type="text" title="Introdução Unidade 3" href="content/un3introducao_prof.xhtml"/>
+    <reference type="text" title="Unidade 3" href="content/unidade03.xhtml"/>
+    <reference type="text" title="Vamos Avaliar" href="content/vamosavaliar3.xhtml"/>
+    <reference type="text" title="Conclusão Unidade 3" href="content/un3conclusao_prof.xhtml"/>
+    <reference type="text" title="Introdução Unidade 4" href="content/un4introducao_prof.xhtml"/>
+    <reference type="text" title="Unidade 4" href="content/unidade04.xhtml"/>
+    <reference type="text" title="Vamos Avaliar" href="content/vamosavaliar4.xhtml"/>
+    <reference type="text" title="Conclusão Unidade 4" href="content/un4conclusao_prof.xhtml"/>
+    <reference type="text" title="Introdução Unidade 5" href="content/un5introducao_prof.xhtml"/>
+    <reference type="text" title="Unidade 5" href="content/unidade05.xhtml"/>
+    <reference type="text" title="Vamos Avaliar" href="content/vamosavaliar5.xhtml"/>
+    <reference type="text" title="Conclusão Unidade 5" href="content/un5conclusao_prof.xhtml"/>
+    <reference type="text" title="Introdução Unidade 6" href="content/un6introducao_prof.xhtml"/>
+    <reference type="text" title="Unidade 6" href="content/unidade06.xhtml"/>
+    <reference type="text" title="Vamos Avaliar" href="content/vamosavaliar6.xhtml"/>
+    <reference type="text" title="Conclusão Unidade 6" href="content/un6conclusao_prof.xhtml"/>
+
+    <reference type="text" title="Quadro BNCC" href="content/bncc_prof.xhtml"/>
+    <reference type="text" title="Vamos concluir" href="content/vamosconcluir.xhtml"/>
+    <reference type="text" title="Saiba mais" href="content/saibamais.xhtml"/>
+    <reference type="text" title="Referências" href="content/referencias.xhtml"/>
+    <reference type="text" title="Créditos de Imagens" href="content/credito-imagem.xhtml"/>
+    <reference type="text" title="URLs Encurtadas" href="content/urlsencurtadas.xhtml"/>
+  </guide>
+</package>
+
