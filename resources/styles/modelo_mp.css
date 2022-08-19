@@ -1084,7 +1084,7 @@ header .pagmp {
   font-size: 1em;
   font-weight: bold;
   padding: 8px 4px;
-  width: 30px;
+  min-width: 30px;
   width: max-content;
   writing-mode: sideways-lr;
 }
@@ -1103,7 +1103,7 @@ header .pagmp {
   font-size: 1em;
   font-weight: bold;
   padding: 8px 4px;
-  width: 30px;
+  min-width: 30px;
   width: max-content;
   writing-mode: sideways-lr;
 }
@@ -1164,6 +1164,11 @@ header .pagmp {
 .tb_mg {
   width: 100%;
 }
+.tb_mg thead th {
+  text-align: center;
+   font-weight: bold;
+}
+
 
 .tb_mg .avaliacao,
 .tb_mg .bncc,

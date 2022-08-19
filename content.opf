@@ -211,6 +211,8 @@
     <!-- IMAGENS NO XHTML -->
 
 <item id="capa4.jpg" href="resources/images/capa4.jpg" media-type="image/jpg"/>   
+<item id="capa3.jpg" href="resources/images/capa3.jpg" media-type="image/jpg"/>
+<item id="capa2.jpg" href="resources/images/capa2.jpg" media-type="image/jpg"/>
 <item id="f1221_1bag_g23_ftd.png" href="resources/images/un6/f1221_1bag_g23_ftd.png" media-type="image/png"/>
 <item id="i0432ib_1bag_g23_ftd.png" href="resources/images/un2/i0432ib_1bag_g23_ftd.png" media-type="image/png"/>
 <item id="f1038_1bag_g23_ftd.png" href="resources/images/un5/f1038_1bag_g23_ftd.png" media-type="image/png"/>
