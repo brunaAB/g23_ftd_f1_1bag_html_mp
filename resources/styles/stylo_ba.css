@@ -93,6 +93,39 @@ math, math mtext {
     max-width: 100%;
   }
 
+  .navUni{
+    padding: 1em 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  .navUni ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .navUni ul li a{
+    color: #232e22;
+    font-weight: bold;
+  }
+  .navUni ul li {
+     background: #9FD09A;
+     border-radius: 10px;
+     box-shadow:2px 3px 5px rgba(0, 0, 0, 0.3);
+     padding: 0.5em ;
+     list-style:none;
+     
+  }
+  .navUni ul li:hover {
+    background: #79a175;
+    border-radius: 10px;
+    box-shadow:2px 3px 2px rgba(0, 0, 0, 0.3);
+    padding: 0.5em ;
+ }
+  .navUni ul li a span{
+    font-size: 2em;
+    vertical-align: middle;
+  }
   
  .borda{
     border: 1px solid #000;
